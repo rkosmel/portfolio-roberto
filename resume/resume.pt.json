@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Roberto Santos Mazutti Kosmel",
+    "label": "Desenvolvedor Full-Stack (Jr)",
+    "email": "roberto.m.kosmel@gmail.com",
+    "phone": "+55 19 98926-3577",
+    "url": "https://github.com/rkosmel",
+    "location": {
+      "city": "São José dos Campos",
+      "region": "SP",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "rkosmel",
+        "url": "https://github.com/rkosmel"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "robertokosmel",
+        "url": "https://www.linkedin.com/in/robertokosmel/"
+      }
+    ],
+    "summary": "Desenvolvedor Full-Stack (Jr) com foco em Next.js/React, Node.js/NestJS e PostgreSQL. Experiência prática com deploy e manutenção em produção na AWS (EC2, RDS, S3), além de troubleshooting e entregas end-to-end."
+  },
+  "work": [
+    {
+      "name": "Blue Exams / The Mindville / MBA No Brainer",
+      "position": "Estagiário de Desenvolvimento (Full-Stack)",
+      "startDate": "2025-04-22",
+      "endDate": "2025-12-19",
+      "summary": "Atuação em múltiplos produtos web com foco em entrega, estabilidade em produção e suporte a operações em cloud.",
+      "highlights": [
+        "Desenvolvimento e evolução de aplicações web com foco em entrega end-to-end.",
+        "Integração com banco de dados PostgreSQL e rotinas de manutenção/debug.",
+        "Suporte a deploy e operação em ambiente AWS (EC2, RDS, S3) e Linux."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNIFESP — Universidade Federal de São Paulo (São José dos Campos)",
+      "area": "Engenharia de Computação",
+      "studyType": "Graduação (em andamento)",
+      "startDate": "2023",
+      "endDate": "2027-06"
+    },
+    {
+      "institution": "UNIFESP — Universidade Federal de São Paulo (São José dos Campos)",
+      "area": "Bacharelado em Ciência e Tecnologia (BCT)",
+      "studyType": "Graduação",
+      "startDate": "2021",
+      "endDate": "2023"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Full-Stack",
+      "keywords": ["Next.js", "React", "Node.js", "NestJS", "REST", "JWT"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS EC2", "AWS RDS (Postgres)", "AWS S3", "Nginx", "Docker", "Linux"]
+    },
+    {
+      "name": "Banco de Dados",
+      "keywords": ["PostgreSQL", "Prisma", "SQL", "DBeaver"]
+    }
+  ],
+  "projects": []
+}
