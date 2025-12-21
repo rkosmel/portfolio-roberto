@@ -11,7 +11,7 @@ Importante:
 - Não inclui código proprietário de terceiros.
 - Não inclui credenciais, chaves ou dados sensíveis.
 
-## Case studies (em construção)
+## Case studies
 Os textos finais ficam em `./case-studies/`:
 - `./case-studies/blueexams-landing.md`
 - `./case-studies/blueexams-mock-exam-platform.md`

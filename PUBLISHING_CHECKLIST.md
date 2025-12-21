@@ -1,23 +1,23 @@
-# Checklist de publicação (modo seguro)
+# Checklist de publicação (segurança e privacidade)
 
-Este repositório é um portfólio em formato de **case studies**. A ideia é mostrar resultados e capacidade técnica **sem publicar código proprietário, credenciais ou dados sensíveis**.
+Este repositório é um portfólio em formato de **case studies**. O objetivo é demonstrar entregas e decisões técnicas **sem expor código proprietário, credenciais, dados de clientes ou PII**.
 
 ## Antes de publicar no GitHub
 - Verifique se não há:
-  - `.env`, `.pem`, dumps (`*.sql`, `*.dump`), credenciais, tokens.
-  - URLs internas, endpoints privados ou dados de clientes.
-- Confira o `.gitignore` (já inclui `.env`, `*.pem`, `*.sql`, `*.dump`).
+  - `.env*`, `*.pem`, `*.key`, dumps (`*.sql`, `*.dump`) ou qualquer token/credencial.
+  - URLs internas, endpoints privados, nomes de buckets/hosts internos ou dados de clientes.
+- Confira o `.gitignore` (ex.: `.env`, `*.pem`, `*.sql`, `*.dump`, `node_modules/`, builds).
 
 ## Ao escrever um case study
 - Evite:
-  - Senhas, API keys, nomes de secrets.
-  - Trechos de logs com PII.
-  - Identificadores internos (ex.: IDs reais de usuários/clientes).
+  - Senhas, API keys, tokens, headers/payloads reais.
+  - Trechos de logs com PII (e-mails, telefones, nomes, IDs reais).
+  - Código de projetos privados (prefira pseudocódigo e diagramas).
 - Prefira:
-  - Arquitetura em alto nível.
+  - Arquitetura em alto nível e contexto do problema.
   - Decisões técnicas e trade-offs.
-  - Resultados e aprendizados.
+  - Resultados, impactos e aprendizados (quando aplicável).
 
-## Se você ainda tem arquivos antigos localmente
-- Mantenha fora do portfólio e fora de qualquer repo público.
-- Se houver qualquer suspeita de credenciais expostas, rotacione/invalidade (quando aplicável).
+## Se algo sensível foi exposto
+- Considere que apagar o arquivo depois não remove o histórico do Git.
+- Rotacione/invalide credenciais imediatamente e faça limpeza do histórico quando necessário.
