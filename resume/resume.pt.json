@@ -58,7 +58,7 @@
   "skills": [
     {
       "name": "Full-Stack",
-      "keywords": ["Next.js", "React", "Node.js", "NestJS", "REST", "JWT"]
+      "keywords": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "NextAuth", "Stripe", "REST", "JWT"]
     },
     {
       "name": "Cloud & DevOps",
@@ -67,7 +67,57 @@
     {
       "name": "Banco de Dados",
       "keywords": ["PostgreSQL", "Prisma", "SQL", "DBeaver"]
+    },
+    {
+      "name": "Ferramentas",
+      "keywords": ["Git", "VS Code", "Tailwind CSS"]
+    },
+    {
+      "name": "Automa\u00e7\u00e3o & Integra\u00e7\u00f5es",
+      "keywords": ["Zapier", "Twilio", "n8n (em estudo)"]
     }
   ],
-  "projects": []
+  "languages": [
+    {
+      "language": "Portugu\u00eas",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingl\u00eas",
+      "fluency": "Avan\u00e7ado"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blue Exams \u2014 Plataforma de simulados (assinatura)",
+      "description": "Plataforma web de simulados por assinatura, com autentica\u00e7\u00e3o, billing e dashboard.",
+      "highlights": [
+        "Implementa\u00e7\u00e3o de fluxos principais (login e dashboard) em Next.js/React.",
+        "Autentica\u00e7\u00e3o e controle de acesso via NextAuth, com billing/assinatura via Stripe.",
+        "Persist\u00eancia em PostgreSQL via Prisma, com manuten\u00e7\u00e3o e corre\u00e7\u00f5es em produ\u00e7\u00e3o."
+      ],
+      "keywords": ["Next.js", "React", "NextAuth", "Stripe", "PostgreSQL", "Prisma"],
+      "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md"
+    },
+    {
+      "name": "Compilador para linguagem C-",
+      "description": "Compilador acad\u00eamico implementado em C.",
+      "highlights": ["An\u00e1lise l\u00e9xica, sint\u00e1tica e sem\u00e2ntica."],
+      "keywords": ["C", "Compiladores"],
+      "entity": "UNIFESP"
+    },
+    {
+      "name": "Blue Exams \u2014 Landing page (site institucional)",
+      "description": "Site institucional est\u00e1tico com deploy em servidor Linux.",
+      "highlights": ["Site em HTML/CSS/JavaScript com opera\u00e7\u00e3o em AWS EC2 + Nginx e TLS/Let's Encrypt."],
+      "keywords": ["HTML", "CSS", "JavaScript", "AWS EC2", "Nginx", "TLS"],
+      "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-landing.md"
+    },
+    {
+      "name": "Electric Ways \u2014 Rotas para ve\u00edculos el\u00e9tricos",
+      "description": "Projeto acad\u00eamico para tra\u00e7ar rotas considerando autonomia e paradas para recarga.",
+      "highlights": ["Modelagem de rotas com restri\u00e7\u00f5es de autonomia e recarga."],
+      "entity": "UNIFESP"
+    }
+  ]
 }

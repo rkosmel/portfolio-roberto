@@ -58,7 +58,7 @@
   "skills": [
     {
       "name": "Full-Stack",
-      "keywords": ["Next.js", "React", "Node.js", "NestJS", "REST", "JWT"]
+      "keywords": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "NextAuth", "Stripe", "REST", "JWT"]
     },
     {
       "name": "Cloud & DevOps",
@@ -67,7 +67,57 @@
     {
       "name": "Databases",
       "keywords": ["PostgreSQL", "Prisma", "SQL", "DBeaver"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "VS Code", "Tailwind CSS"]
+    },
+    {
+      "name": "Automation & Integrations",
+      "keywords": ["Zapier", "Twilio", "n8n (studying)"]
     }
   ],
-  "projects": []
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blue Exams \u2014 Mock exam subscription platform",
+      "description": "Subscription-based web mock exam platform with authentication, billing, and dashboard.",
+      "highlights": [
+        "Built core flows (login and dashboard) using Next.js/React.",
+        "Implemented authentication/access control (NextAuth) and subscription billing (Stripe).",
+        "Backed by PostgreSQL via Prisma, with ongoing production maintenance and fixes."
+      ],
+      "keywords": ["Next.js", "React", "NextAuth", "Stripe", "PostgreSQL", "Prisma"],
+      "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md"
+    },
+    {
+      "name": "C- compiler",
+      "description": "Academic compiler implementation in C.",
+      "highlights": ["Lexical, syntactic, and semantic analysis."],
+      "keywords": ["C", "Compilers"],
+      "entity": "UNIFESP"
+    },
+    {
+      "name": "Blue Exams \u2014 Landing page (marketing site)",
+      "description": "Static marketing site deployed on a Linux server.",
+      "highlights": ["Built in HTML/CSS/JavaScript and operated on AWS EC2 + Nginx with TLS/Let's Encrypt."],
+      "keywords": ["HTML", "CSS", "JavaScript", "AWS EC2", "Nginx", "TLS"],
+      "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-landing.md"
+    },
+    {
+      "name": "Electric Ways \u2014 EV routing",
+      "description": "Academic project to generate routes considering driving range and charging stops.",
+      "highlights": ["Route modeling with range and charging constraints."],
+      "entity": "UNIFESP"
+    }
+  ]
 }
