@@ -14,4 +14,4 @@ Stack:
 
 For confidentiality, I don’t share proprietary code or internal details, but I’m happy to discuss decisions and learnings.
 
-Open to **Junior Full-Stack** roles (primary) and **Junior Cloud/DevOps** roles (secondary).\n\n#aws #nginx #webdev #fullstack #devops
+Open to **Junior Full-Stack** roles (primary) and **Junior Cloud/DevOps** roles (secondary).

@@ -17,5 +17,3 @@ Stack:
 - PostgreSQL
 
 Por confidencialidade, não compartilho endpoints/credenciais nem detalhes internos, mas esse tipo de runbook me deu muita base pra Cloud/DevOps.
-
-#aws #docker #postgresql #devops #cloud

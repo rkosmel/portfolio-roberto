@@ -17,5 +17,3 @@ Stack:
 - PostgreSQL
 
 For confidentiality, I don’t share endpoints/credentials or internal details — but I’m happy to discuss the approach.
-
-#aws #docker #postgresql #devops #cloud

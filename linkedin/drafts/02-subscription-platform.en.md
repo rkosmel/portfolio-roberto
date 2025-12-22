@@ -14,4 +14,4 @@ High-level stack:
 
 For confidentiality, I don’t share company code — but I wrote a high-level case study with architecture and learnings.
 
-Open to Junior Full-Stack and Junior Cloud/DevOps opportunities.\n\n#nextjs #react #stripe #postgresql #fullstack
+Open to Junior Full-Stack and Junior Cloud/DevOps opportunities.

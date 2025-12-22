@@ -12,5 +12,3 @@ This experience improved my consistency in:
 - reading and navigating existing codebases
 - incremental refactoring
 - impact-driven debugging
-
-#nextjs #nestjs #postgresql #fullstack #b2b

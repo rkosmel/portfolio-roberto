@@ -12,5 +12,3 @@ Essa experiência me ajudou a ficar mais consistente em:
 - leitura de base de código existente
 - refactor incremental
 - debug orientado a impacto
-
-#nextjs #nestjs #postgresql #fullstack #b2b

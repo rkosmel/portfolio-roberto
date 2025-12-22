@@ -14,4 +14,4 @@ Stack:
 
 Por confidencialidade, não compartilho detalhes internos/código da empresa, mas gosto muito de contar o racional das decisões e aprendizados.
 
-Se você está contratando **Full-Stack Jr** (principal) ou **Cloud/DevOps Jr** (secundário), eu topo conversar.\n\n#aws #nginx #webdev #fullstack #devops
+Se você está contratando **Full-Stack Jr** (principal) ou **Cloud/DevOps Jr** (secundário), eu topo conversar.
