@@ -13,6 +13,7 @@ Importante:
 
 ## Case studies
 Os textos finais ficam em `./case-studies/`:
+- `./case-studies/mba-no-brainer.md`
 - `./case-studies/blueexams-landing.md`
 - `./case-studies/blueexams-mock-exam-platform.md`
 - `./case-studies/mindville-engagement-platform.md`
