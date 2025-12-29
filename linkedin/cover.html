@@ -12,7 +12,7 @@
       width: 1584px;
       height: 396px;
       overflow: hidden;
-      background: #1f1f1f;
+      background: #1a1d23;
       color: #f2f2f2;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
@@ -21,15 +21,20 @@
       position: relative;
       width: 100%;
       height: 100%;
+      isolation: isolate;
       background:
-        linear-gradient(120deg, #1f1f1f 0%, #2f2f2f 40%, #1c1c1c 100%);
+        linear-gradient(120deg, #1a1d23 0%, #22252d 45%, #17191e 100%);
     }
 
     .cover::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.1) 35%, rgba(0,0,0,0) 65%);
+      background:
+        linear-gradient(90deg, rgba(26,29,35,0.88) 0%, rgba(34,37,45,0.55) 38%, rgba(26,29,35,0) 72%),
+        radial-gradient(closest-side at 50% 0%, rgba(26,29,35,0.45), rgba(26,29,35,0) 60%),
+        radial-gradient(closest-side at 50% 100%, rgba(26,29,35,0.45), rgba(26,29,35,0) 60%);
+      z-index: 3;
       pointer-events: none;
     }
 
@@ -39,65 +44,77 @@
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(circle at 30% 50%, rgba(255,255,255,0.04), transparent 60%),
-        radial-gradient(circle at 70% 40%, rgba(255,255,255,0.03), transparent 65%);
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.08) 0px, rgba(255,255,255,0.08) 1px, transparent 1px, transparent 72px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.07) 0px, rgba(255,255,255,0.07) 1px, transparent 1px, transparent 72px),
+        radial-gradient(circle at 70% 45%, rgba(255,255,255,0.07), transparent 62%),
+        radial-gradient(circle at 42% 62%, rgba(255,255,255,0.06), transparent 64%);
+      opacity: 0.08;
+      z-index: 2;
       pointer-events: none;
     }
 
-    .content {
+    .diagram {
       position: absolute;
       inset: 0;
-      padding: 64px 80px 64px 360px; /* área segura (foto do perfil cobre a esquerda no desktop) */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 12px;
-    }
-
-    .name {
-      font-size: 44px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.05;
-    }
-
-    .headline {
-      max-width: 1020px;
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 1.25;
-      color: rgba(255,255,255,0.88);
-    }
-
-    .link {
-      font-size: 16px;
-      color: rgba(255,255,255,0.7);
-    }
-
-    .accent {
-      position: absolute;
-      left: 360px;
-      right: 80px;
-      top: 74px;
-      height: 2px;
-      background: linear-gradient(90deg, rgba(20,74,128,0.95), rgba(20,74,128,0));
-      opacity: 0.9;
+      width: 100%;
+      height: 100%;
+      opacity: 0.32;
+      transform: translateX(-20px) scale(1.05);
+      z-index: 1;
     }
   </style>
 </head>
 <body>
   <div class="cover">
-    <div class="accent"></div>
+    <svg class="diagram" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <defs>
+        <filter id="soften" x="-10%" y="-10%" width="120%" height="120%">
+          <feGaussianBlur stdDeviation="0.4" />
+        </filter>
+      </defs>
 
-    <div class="content">
-      <div class="name">Roberto Kosmel</div>
+      <g filter="url(#soften)" stroke="#e2e8f0" stroke-opacity="0.32" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="760" y="64" width="220" height="68" rx="12" />
+        <rect x="1040" y="64" width="240" height="68" rx="12" />
+        <rect x="1320" y="64" width="200" height="68" rx="12" />
 
-      <div class="headline">
-        Desenvolvedor Full-Stack Jr | React • Next.js • Node.js (Express) • PostgreSQL • AWS (EC2, RDS)
-      </div>
+        <rect x="760" y="164" width="220" height="68" rx="12" />
+        <rect x="1040" y="164" width="240" height="68" rx="12" />
+        <rect x="1320" y="164" width="200" height="68" rx="12" />
 
-      <div class="link">Case studies: github.com/rkosmel/portfolio-roberto</div>
-    </div>
+        <path d="M980 98 H1040" />
+        <path d="M1280 98 H1320" />
+        <path d="M980 198 H1040" />
+        <path d="M1280 198 H1320" />
+
+        <path d="M870 132 V164" stroke-dasharray="6 10" />
+        <path d="M1160 132 V164" stroke-dasharray="6 10" />
+        <path d="M1420 132 V164" stroke-dasharray="6 10" />
+
+        <circle cx="1040" cy="98" r="4" />
+        <circle cx="1320" cy="98" r="4" />
+        <circle cx="1040" cy="198" r="4" />
+        <circle cx="1320" cy="198" r="4" />
+
+        <path d="M880 232 C 980 272, 1040 272, 1160 246" stroke-dasharray="10 10" />
+        <circle cx="880" cy="232" r="4" />
+        <circle cx="1160" cy="246" r="4" />
+
+        <g stroke-opacity="0.2">
+          <ellipse cx="1160" cy="292" rx="92" ry="18" />
+          <path d="M1068 292 V326 C1068 336 1110 344 1160 344 C1210 344 1252 336 1252 326 V292" />
+          <ellipse cx="1160" cy="326" rx="92" ry="18" />
+        </g>
+
+        <path d="M1160 246 V274" />
+        <circle cx="1160" cy="274" r="4" />
+      </g>
+
+      <g filter="url(#soften)" stroke="#e2e8f0" stroke-opacity="0.18" stroke-width="1" fill="none">
+        <rect x="700" y="40" width="880" height="316" rx="18" />
+        <path d="M740 356 H1560" />
+      </g>
+    </svg>
   </div>
 </body>
 </html>
