@@ -74,45 +74,109 @@
       </defs>
 
       <g filter="url(#soften)" stroke="#e2e8f0" stroke-opacity="0.32" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="760" y="64" width="220" height="68" rx="12" />
-        <rect x="1040" y="64" width="240" height="68" rx="12" />
-        <rect x="1320" y="64" width="200" height="68" rx="12" />
-
-        <rect x="760" y="164" width="220" height="68" rx="12" />
-        <rect x="1040" y="164" width="240" height="68" rx="12" />
-        <rect x="1320" y="164" width="200" height="68" rx="12" />
-
-        <path d="M980 98 H1040" />
-        <path d="M1280 98 H1320" />
-        <path d="M980 198 H1040" />
-        <path d="M1280 198 H1320" />
-
-        <path d="M870 132 V164" stroke-dasharray="6 10" />
-        <path d="M1160 132 V164" stroke-dasharray="6 10" />
-        <path d="M1420 132 V164" stroke-dasharray="6 10" />
-
-        <circle cx="1040" cy="98" r="4" />
-        <circle cx="1320" cy="98" r="4" />
-        <circle cx="1040" cy="198" r="4" />
-        <circle cx="1320" cy="198" r="4" />
-
-        <path d="M880 232 C 980 272, 1040 272, 1160 246" stroke-dasharray="10 10" />
-        <circle cx="880" cy="232" r="4" />
-        <circle cx="1160" cy="246" r="4" />
-
-        <g stroke-opacity="0.2">
-          <ellipse cx="1160" cy="292" rx="92" ry="18" />
-          <path d="M1068 292 V326 C1068 336 1110 344 1160 344 C1210 344 1252 336 1252 326 V292" />
-          <ellipse cx="1160" cy="326" rx="92" ry="18" />
+        <!-- Frontend layer -->
+        <rect x="680" y="48" width="200" height="56" rx="10" />
+        <rect x="920" y="48" width="220" height="56" rx="10" />
+        <rect x="1180" y="48" width="200" height="56" rx="10" />
+        <rect x="1420" y="48" width="140" height="56" rx="10" />
+        
+        <!-- Backend layer -->
+        <rect x="680" y="128" width="200" height="56" rx="10" />
+        <rect x="920" y="128" width="220" height="56" rx="10" />
+        <rect x="1180" y="128" width="200" height="56" rx="10" />
+        <rect x="1420" y="128" width="140" height="56" rx="10" />
+        
+        <!-- Data layer -->
+        <rect x="680" y="208" width="200" height="56" rx="10" />
+        <rect x="920" y="208" width="220" height="56" rx="10" />
+        <rect x="1180" y="208" width="200" height="56" rx="10" />
+        <rect x="1420" y="208" width="140" height="56" rx="10" />
+        
+        <!-- Infrastructure layer -->
+        <rect x="780" y="288" width="180" height="48" rx="8" />
+        <rect x="1000" y="288" width="200" height="48" rx="8" />
+        <rect x="1240" y="288" width="180" height="48" rx="8" />
+        
+        <!-- Horizontal connections -->
+        <path d="M880 76 H920" />
+        <path d="M1140 76 H1180" />
+        <path d="M1380 76 H1420" />
+        
+        <path d="M880 156 H920" />
+        <path d="M1140 156 H1180" />
+        <path d="M1380 156 H1420" />
+        
+        <path d="M880 236 H920" />
+        <path d="M1140 236 H1180" />
+        <path d="M1380 236 H1420" />
+        
+        <path d="M960 312 H1000" />
+        <path d="M1200 312 H1240" />
+        
+        <!-- Vertical connections -->
+        <path d="M780 104 V128" stroke-dasharray="5 8" />
+        <path d="M1030 104 V128" stroke-dasharray="5 8" />
+        <path d="M1280 104 V128" stroke-dasharray="5 8" />
+        <path d="M1490 104 V128" stroke-dasharray="5 8" />
+        
+        <path d="M780 184 V208" stroke-dasharray="5 8" />
+        <path d="M1030 184 V208" stroke-dasharray="5 8" />
+        <path d="M1280 184 V208" stroke-dasharray="5 8" />
+        <path d="M1490 184 V208" stroke-dasharray="5 8" />
+        
+        <path d="M870 264 V288" stroke-dasharray="5 8" />
+        <path d="M1100 264 V288" stroke-dasharray="5 8" />
+        <path d="M1280 264 V288" stroke-dasharray="5 8" />
+        <path d="M1490 264 V288" stroke-dasharray="5 8" />
+        
+        <!-- Cross-layer connections -->
+        <path d="M780 236 C 880 276, 920 276, 1000 312" stroke-dasharray="8 12" />
+        <path d="M1030 236 C 1100 266, 1140 266, 1200 312" stroke-dasharray="8 12" />
+        <path d="M1280 236 C 1320 266, 1360 266, 1420 312" stroke-dasharray="8 12" />
+        
+        <!-- Connection points -->
+        <circle cx="920" cy="76" r="3" />
+        <circle cx="1180" cy="76" r="3" />
+        <circle cx="1420" cy="76" r="3" />
+        
+        <circle cx="920" cy="156" r="3" />
+        <circle cx="1180" cy="156" r="3" />
+        <circle cx="1420" cy="156" r="3" />
+        
+        <circle cx="920" cy="236" r="3" />
+        <circle cx="1180" cy="236" r="3" />
+        <circle cx="1420" cy="236" r="3" />
+        
+        <circle cx="1000" cy="312" r="3" />
+        <circle cx="1240" cy="312" r="3" />
+        
+        <!-- Database representation -->
+        <g stroke-opacity="0.25">
+          <ellipse cx="1030" cy="236" rx="80" ry="14" />
+          <path d="M950 236 V264 C950 272 990 280 1030 280 C1070 280 1110 272 1110 264 V236" />
+          <ellipse cx="1030" cy="264" rx="80" ry="14" />
         </g>
-
-        <path d="M1160 246 V274" />
-        <circle cx="1160" cy="274" r="4" />
+        
+        <!-- External services indicators -->
+        <g stroke-opacity="0.20">
+          <rect x="60" y="120" width="120" height="40" rx="6" />
+          <rect x="60" y="180" width="120" height="40" rx="6" />
+          <rect x="60" y="240" width="120" height="40" rx="6" />
+          
+          <path d="M180 140 H680" stroke-dasharray="4 6" />
+          <path d="M180 200 H680" stroke-dasharray="4 6" />
+          <path d="M180 260 H680" stroke-dasharray="4 6" />
+        </g>
       </g>
 
       <g filter="url(#soften)" stroke="#e2e8f0" stroke-opacity="0.18" stroke-width="1" fill="none">
-        <rect x="700" y="40" width="880" height="316" rx="18" />
-        <path d="M740 356 H1560" />
+        <rect x="40" y="30" width="1540" height="336" rx="16" />
+        <path d="M60 366 H1560" />
+        
+        <!-- Layer separators -->
+        <path d="M60 116 H1560" stroke-dasharray="2 4" stroke-opacity="0.12" />
+        <path d="M60 196 H1560" stroke-dasharray="2 4" stroke-opacity="0.12" />
+        <path d="M60 276 H1560" stroke-dasharray="2 4" stroke-opacity="0.12" />
       </g>
     </svg>
   </div>
