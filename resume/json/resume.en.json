@@ -23,7 +23,7 @@
         "url": "https://www.linkedin.com/in/robertokosmel/"
       }
     ],
-    "summary": "Junior Full-Stack developer focused on Next.js/React, Node.js/NestJS, and PostgreSQL. Hands-on experience supporting production deployment and operations on AWS (EC2, RDS, S3), plus troubleshooting and end-to-end delivery."
+    "summary": "Junior Full-Stack developer focused on React/Next.js, Node.js (Express), and PostgreSQL. Hands-on experience supporting production deployment and operations on AWS (EC2, RDS, S3), plus troubleshooting and end-to-end delivery."
   },
   "work": [
     {
@@ -58,7 +58,7 @@
   "skills": [
     {
       "name": "Full-Stack",
-      "keywords": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "NextAuth", "Stripe", "REST", "JWT"]
+      "keywords": ["React", "Next.js", "TypeScript", "Node.js", "Express", "NextAuth", "Stripe", "REST", "JWT"]
     },
     {
       "name": "Cloud & DevOps",

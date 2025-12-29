@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinkedIn Cover</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 1584px;
+      height: 396px;
+      overflow: hidden;
+      background: #1f1f1f;
+      color: #f2f2f2;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .cover {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background:
+        linear-gradient(120deg, #1f1f1f 0%, #2f2f2f 40%, #1c1c1c 100%);
+    }
+
+    .cover::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.1) 35%, rgba(0,0,0,0) 65%);
+      pointer-events: none;
+    }
+
+    /* textura sutil (sem linhas duras) */
+    .cover::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 30% 50%, rgba(255,255,255,0.04), transparent 60%),
+        radial-gradient(circle at 70% 40%, rgba(255,255,255,0.03), transparent 65%);
+      pointer-events: none;
+    }
+
+    .content {
+      position: absolute;
+      inset: 0;
+      padding: 64px 80px 64px 360px; /* área segura (foto do perfil cobre a esquerda no desktop) */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .name {
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+    }
+
+    .headline {
+      max-width: 1020px;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1.25;
+      color: rgba(255,255,255,0.88);
+    }
+
+    .link {
+      font-size: 16px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .accent {
+      position: absolute;
+      left: 360px;
+      right: 80px;
+      top: 74px;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(20,74,128,0.95), rgba(20,74,128,0));
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="accent"></div>
+
+    <div class="content">
+      <div class="name">Roberto Kosmel</div>
+
+      <div class="headline">
+        Desenvolvedor Full-Stack Jr | React • Next.js • Node.js (Express) • PostgreSQL • AWS (EC2, RDS)
+      </div>
+
+      <div class="link">Case studies: github.com/rkosmel/portfolio-roberto</div>
+    </div>
+  </div>
+</body>
+</html>

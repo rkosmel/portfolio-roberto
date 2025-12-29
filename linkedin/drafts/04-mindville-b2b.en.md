@@ -5,7 +5,7 @@ At **The Mindville**, I contributed to full-stack deliveries involving the dashb
 High-level takeaways:
 - Frontend on **Next.js** organized as a **monorepo (npm workspaces)**
 - Two apps (production and demo) sharing packages (core/ui)
-- Backend on **NestJS** with **Prisma + PostgreSQL**
+- Backend on **Node.js** with **Prisma + PostgreSQL**
 - Layered data model (Bronze/Silver/Gold) for metrics and snapshots
 
 This experience improved my consistency in:

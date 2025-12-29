@@ -5,7 +5,7 @@ Na **The Mindville**, participei de entregas full-stack envolvendo dashboard e b
 O que me marcou (alto nível):
 - Front-end em **Next.js** organizado como **monorepo (npm workspaces)**
 - Dois apps (produção e demo) compartilhando pacotes (core/ui)
-- Backend em **NestJS** com **Prisma + PostgreSQL**
+- Backend em **Node.js** com **Prisma + PostgreSQL**
 - Modelo de dados com camadas (Bronze/Silver/Gold) para métricas e snapshots
 
 Essa experiência me ajudou a ficar mais consistente em:

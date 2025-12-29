@@ -10,13 +10,13 @@ A The Mindville desenvolve uma plataforma B2B para empresas acompanharem engajam
 
 ## Stack (alto nível)
 - Front-end: Next.js (monorepo com npm workspaces)
-- Back-end: Node.js (NestJS)
+- Back-end: Node.js
 - Banco de dados: PostgreSQL
 - ORM: Prisma
 
 ## Arquitetura (alto nível)
 - Front-end em monorepo com dois apps (produção e demo), compartilhando pacotes de core e UI.
-- API REST em NestJS com documentação via Swagger.
+- API REST em Node.js com documentação via Swagger.
 - Camadas de dados (Bronze/Silver/Gold) para pipeline de métricas e snapshots.
 
 ## Desafios e decisões

@@ -1,0 +1,108 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\pagestyle{empty}  % Remove a numeração das páginas
+
+% Configurações de cores
+\definecolor{accent}{RGB}{20,74,128}
+
+% Configuração dos títulos
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+
+% Ajuste do espaçamento entre seções
+\titlespacing{\section}{0pt}{2.5mm}{2.5mm}
+\titlespacing{\subsection}{0pt}{2.5mm}{2.5mm}
+
+% Remover indentação do primeiro parágrafo
+\setlength{\parindent}{0pt}
+
+% Hiperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+}
+
+\begin{document}
+
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+
+\begin{center}
+    {\Huge \textbf{Roberto Santos Mazutti Kosmel}} \\
+    \vspace{1mm}
+    {\large Junior Full-Stack Developer \textbar{} React \textbar{} Next.js \textbar{} Node.js (Express) \textbar{} PostgreSQL \textbar{} AWS (EC2, RDS)} \\
+    \vspace{1mm}
+    São José dos Campos, SP (Remote) \textbar{} \href{mailto:roberto.m.kosmel@gmail.com}{\texttt{roberto.m.kosmel@gmail.com}} \textbar{} +55\,19\,98926-3577 \\
+    \href{https://www.linkedin.com/in/robertokosmel/}{\texttt{linkedin.com/in/robertokosmel}} \textbar{} \href{https://github.com/rkosmel}{\texttt{github.com/rkosmel}}
+\end{center}
+
+\vspace{2mm}
+
+\section*{Summary}
+Junior Full-Stack developer with hands-on experience in production web applications, focused on end-to-end delivery and stability. Work involving React/Next.js, Node.js (Express), and PostgreSQL, plus support for deployment and cloud operations (AWS).
+
+\section*{Experience}
+\textbf{Software Engineering Intern (Full-Stack)} --- Blue Exams / The Mindville / MBA No Brainer \hfill Apr 2025 -- Dec 2025 \\
+\begin{itemize}
+    \item Built an end-to-end (0->1) subscription-based mock exam web platform, including exam flows (timer, pause/resume, autosave) and analytics.
+    \item Implemented authentication and subscription billing (NextAuth, Stripe) with PostgreSQL persistence via Prisma.
+    \item Supported deployment and production operations on AWS (EC2, RDS, S3) and Linux/Nginx, including troubleshooting and data/asset migration (Chatwoot).
+\end{itemize}
+
+\section*{Selected Projects}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{Blue Exams --- Mock exam platform} & 2025 \\
+\end{tabular*}
+\begin{itemize}
+    \item Subscription-based web platform (React/Next.js) with exam experience (timer, pause/resume, autosave) and Question Review + Analytics.
+    \item Authentication/subscriptions (NextAuth + Stripe), PostgreSQL (Prisma), plus deployment/operations on AWS (EC2/RDS/S3).
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{C- compiler} & UNIFESP \\
+\end{tabular*}
+\begin{itemize}
+    \item Compiler implemented in C (lexical, syntactic, and semantic analysis).
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{Electric Ways --- EV routing} & UNIFESP \\
+\end{tabular*}
+\begin{itemize}
+    \item Route planning app considering driving range and charging stops.
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{Blue Exams --- Landing page (marketing site)} & 2025 \\
+\end{tabular*}
+\begin{itemize}
+    \item Static site built with HTML/CSS/JavaScript and operated on AWS EC2 + Nginx with TLS/Let's Encrypt.
+\end{itemize}
+
+\section*{Education}
+\textbf{Federal University of São Paulo (UNIFESP)} --- Computer Engineering (in progress) \hfill 2023 -- Expected Jun 2027 \\
+\textbf{Federal University of São Paulo (UNIFESP)} --- Science and Technology (BSc) \hfill 2021 -- 2023
+
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Languages}: JavaScript/TypeScript, Python, C/C++, SQL
+    \item \textbf{Web}: Next.js, React, Node.js, Express, REST, JWT, NextAuth, Stripe, Tailwind CSS
+    \item \textbf{Databases}: PostgreSQL, Prisma, DBeaver
+    \item \textbf{Cloud/Infra}: AWS EC2, AWS RDS (Postgres), AWS S3, Nginx, Docker, Linux
+    \item \textbf{Automation \& Integrations}: Zapier, Twilio (n8n studying)
+    \item \textbf{Tools}: Git, VS Code
+\end{itemize}
+
+\section*{Languages}
+Portuguese (native) \textbar{} English (advanced)
+
+\section*{Activities}
+\textbf{Basketball team captain}: leadership and teamwork in university tournaments.
+
+\end{document}

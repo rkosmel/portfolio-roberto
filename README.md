@@ -23,6 +23,9 @@ Os textos finais ficam em `./case-studies/`:
 - PT: `./linkedin/about.pt.md`
 - EN: `./linkedin/about.en.md`
 
-## Currículo (JSON Resume)
-- PT: `./resume/resume.pt.json`
-- EN: `./resume/resume.en.json`
+## Currículo
+- JSON Resume (PT): `./resume/json/resume.pt.json`
+- JSON Resume (EN): `./resume/json/resume.en.json`
+- LaTeX: `./resume/latex/`
+- PDFs: `./resume/pdf/`
+- Carta de apresentação: `./resume/cover-letter/`
