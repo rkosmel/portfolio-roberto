@@ -18,7 +18,6 @@ Desenvolvedor **Full-Stack Jr** com experiência prática em aplicações web em
 - Banco de dados: PostgreSQL, Prisma, SQL
 - Cloud/DevOps: AWS (EC2/RDS/S3), Nginx, Docker, Linux
 
-## GitHub
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rkosmel&layout=compact&hide_border=true&langs_count=8)
+---
 
 > Observação: por confidencialidade, eu compartilho arquitetura e aprendizados em alto nível no portfólio, sem publicar código proprietário.
