@@ -34,8 +34,8 @@
       "summary": "Worked across multiple web products with a strong focus on delivery, production stability, and cloud operations support.",
       "highlights": [
         "Built and maintained web applications with end-to-end ownership (frontend, backend, database).",
+        "Created and consumed REST APIs (Next.js endpoints, Stripe, NextAuth, Chatwoot, Node.js backend).",
         "Worked with PostgreSQL and Prisma/ORM flows, supporting maintenance and debugging routines.",
-        "Consumed and integrated REST APIs (Stripe, NextAuth, external services) for payments and authentication.",
         "Supported deployments and production operations on AWS (EC2, RDS, S3) and Linux, including Nginx and Docker-based workloads."
       ]
     }

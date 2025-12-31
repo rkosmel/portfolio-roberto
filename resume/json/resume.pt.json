@@ -34,8 +34,8 @@
       "summary": "Atuação em múltiplos produtos web com foco em entrega, estabilidade em produção e suporte a operações em cloud.",
       "highlights": [
         "Desenvolvimento e evolução de aplicações web com foco em entrega end-to-end.",
+        "Criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, Chatwoot, backend Node.js).",
         "Integração com banco de dados PostgreSQL e rotinas de manutenção/debug.",
-        "Consumo e integração de APIs REST (Stripe, NextAuth, serviços externos).",
         "Suporte a deploy e operação em ambiente AWS (EC2, RDS, S3) e Linux."
       ]
     }
