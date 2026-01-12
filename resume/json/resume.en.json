@@ -59,23 +59,23 @@
   "skills": [
     {
       "name": "Full-Stack",
-      "keywords": ["React", "Next.js", "TypeScript", "Node.js", "Express", "NextAuth", "Stripe", "REST", "JWT"]
+      "keywords": ["Next.js", "React", "TypeScript", "Node.js", "Express", "HTML", "CSS", "Tailwind CSS", "REST", "JWT", "NextAuth"]
     },
     {
       "name": "Cloud & DevOps",
-      "keywords": ["AWS EC2", "AWS RDS (Postgres)", "AWS S3", "Nginx", "Docker", "Linux"]
+      "keywords": ["AWS (EC2, RDS, S3 + multiple services)", "Docker", "Linux", "Nginx"]
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "Prisma", "SQL", "DBeaver"]
+      "keywords": ["PostgreSQL", "Prisma", "JSON", "SQL", "DBeaver", "Data Analysis"]
     },
     {
       "name": "Tools",
-      "keywords": ["Git", "VS Code", "Tailwind CSS"]
+      "keywords": ["Git", "VS Code", "Microsoft Office (Advanced)"]
     },
     {
       "name": "Automation & Integrations",
-      "keywords": ["Zapier", "Twilio", "n8n (studying)"]
+      "keywords": ["Stripe (payments)", "Zapier", "Twilio", "n8n (studying)"]
     }
   ],
   "languages": [

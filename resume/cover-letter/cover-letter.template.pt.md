@@ -16,7 +16,7 @@ Prezados(as),
 
 Meu nome é Roberto Santos Mazutti Kosmel e estou me candidatando à vaga de **[CARGO]** na **[NOME DA EMPRESA]**. Tenho experiência prática como desenvolvedor full-stack em aplicações web em produção, com foco em entregas end-to-end e estabilidade.
 
-Durante meu estágio, atuei na construção e evolução de produtos web com **React/Next.js**, **Node.js (Express)** e **PostgreSQL**, incluindo criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, Chatwoot, backend Node.js), integrações de autenticação e assinatura (**NextAuth/Stripe**) e suporte a deploy e operação em **AWS (EC2/RDS/S3)** e **Linux/Nginx**. Também trabalhei com troubleshooting e correções contínuas em produção, sempre buscando impacto real para o usuário.
+Durante meu estágio, atuei na construção e evolução de produtos web com **Next.js**, **React**, **TypeScript**, **Node.js (Express)** e **PostgreSQL**, incluindo criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, Chatwoot, backend Node.js), integrações de autenticação e assinatura (**NextAuth/Stripe**) e suporte a deploy e operação em **AWS (EC2/RDS/S3 + múltiplos serviços)** e **Linux/Nginx**. Também trabalhei com manipulação de arquivos, dados JSON, análise de dados e Microsoft Office para relatórios e documentação técnica.
 
 Tenho interesse nesta oportunidade porque **[MOTIVO REAL — exemplo: gosto do domínio do produto, desafios técnicos, cultura de engenharia, aprendizado, impacto no negócio]**. Acredito que posso contribuir com consistência na execução, rapidez para aprender e responsabilidade na entrega.
 

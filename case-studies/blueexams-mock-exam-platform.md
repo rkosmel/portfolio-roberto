@@ -5,7 +5,7 @@ A Blue Exams precisava de uma plataforma web de simulados em formato de assinatu
 
 ## Meu papel
 - Construção end-to-end (0→1) da plataforma web (modelagem do domínio e do banco, estrutura de questões, páginas/telas e fluxos principais).
-- Implementação de autenticação (NextAuth) e cobrança por assinatura (Stripe).
+- Implementação de autenticação (NextAuth) e cobrança por assinatura (Stripe) com integração completa de pagamentos.
 - Criação e manutenção do conteúdo/banco de questões (11 simulados), com rotinas de inserção e atualização.
 - Deploy e operação em produção na AWS (EC2/RDS/S3), além de troubleshooting e correções com foco em estabilidade.
 

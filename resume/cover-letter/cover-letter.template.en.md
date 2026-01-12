@@ -16,7 +16,7 @@ Dear Hiring Team,
 
 My name is Roberto Santos Mazutti Kosmel and I'm applying for the **[ROLE]** position at **[COMPANY NAME]**. I have hands-on experience building and supporting production web applications, with a strong focus on end-to-end delivery and stability.
 
-During my internship, I worked across full-stack deliveries using **React/Next.js**, **Node.js (Express)**, and **PostgreSQL**, including creation and consumption of REST APIs (Next.js endpoints, Stripe, NextAuth, Chatwoot, Node.js backend), authentication and subscription flows (**NextAuth/Stripe**) and support for deployment and operations on **AWS (EC2/RDS/S3)** and **Linux/Nginx**. I also spent a significant amount of time troubleshooting production issues and shipping incremental improvements with real user impact.
+During my internship, I worked across full-stack deliveries using **Next.js**, **React**, **TypeScript**, **Node.js (Express)**, and **PostgreSQL**, including creation and consumption of REST APIs (Next.js endpoints, Stripe, NextAuth, Chatwoot, Node.js backend), authentication and subscription flows (**NextAuth/Stripe**) and support for deployment and operations on **AWS (EC2/RDS/S3 + multiple services)** and **Linux/Nginx**. I also worked with file manipulation, JSON data, data analysis and Microsoft Office for reports and technical documentation.
 
 I'm interested in this opportunity because **[REAL REASON — e.g., product domain, engineering culture, technical challenges, learning goals, business impact]**. I believe I can contribute with strong ownership, fast learning, and a practical delivery mindset.
 
