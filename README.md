@@ -46,8 +46,6 @@ Os textos finais ficam em `./case-studies/`:
 - **PT**: `./linkedin/about.pt.md` (texto para bio do LinkedIn)
 - **EN**: `./linkedin/about.en.md` (texto para bio do LinkedIn)
 
-*Como usar: Copie o conteúdo do arquivo correspondente e cole na seção "Sobre" do seu perfil LinkedIn.*
-
 ## Currículo
 - JSON Resume (PT): `./resume/json/resume.pt.json`
 - JSON Resume (EN): `./resume/json/resume.en.json`
