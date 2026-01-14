@@ -1,5 +1,8 @@
 # Portfólio — Roberto Santos Mazutti Kosmel
 
+[![Last Commit](https://img.shields.io/github/last-commit/rkosmel/portfolio-roberto?style=flat-square&color=0ea5e9)](https://github.com/rkosmel/portfolio-roberto/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/rkosmel/portfolio-roberto?style=flat-square&color=0ea5e9)](https://github.com/rkosmel/portfolio-roberto)
+
 - GitHub: https://github.com/rkosmel
 - LinkedIn: https://www.linkedin.com/in/robertokosmel/
 - Localização: São José dos Campos, SP (Remoto)
@@ -10,6 +13,26 @@ Este repositório reúne **case studies** e materiais de portfólio.
 Importante:
 - Não inclui código proprietário de terceiros.
 - Não inclui credenciais, chaves ou dados sensíveis.
+
+## 🚀 Quick Start
+
+### Para Candidaturas
+- **Currículo**: Use PDFs em `./resume/pdf/`
+- **Case Studies**: Referencie links em `./case-studies/`
+- **Cover Letter**: Adapte templates em `./resume/cover-letter/`
+
+### Para Desenvolvimento
+- **JSON Resume**: Fonte de verdade para atualizações
+- **LaTeX**: Para customização avançada
+- **LinkedIn**: Materiais para perfil profissional
+
+## 📊 Case Studies Preview
+
+| Projeto | Tech Stack | Status |
+|---------|------------|---------|
+| 🚀 Blue Exams | Next.js + AWS | ✅ Produção |
+| 🏢 Mindville | Next.js + PostgreSQL | ✅ Concluído |
+| 🔄 MBA No Brainer | Docker + AWS | ✅ Migrado |
 
 ## Case studies
 Os textos finais ficam em `./case-studies/`:
@@ -29,3 +52,9 @@ Os textos finais ficam em `./case-studies/`:
 - LaTeX: `./resume/latex/`
 - PDFs: `./resume/pdf/`
 - Carta de apresentação: `./resume/cover-letter/`
+
+## 📈 Estatísticas
+- **Documentos profissionais**: 20+ arquivos
+- **Case studies detalhados**: 6 projetos completos
+- **Idiomas suportados**: Português e Inglês
+- **Última atualização**: Mantido ativamente
