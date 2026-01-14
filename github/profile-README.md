@@ -48,7 +48,7 @@ Busco constantemente desafios que me permitam crescer technicalmente e contribui
 - **Deploy em produção** com setup completo em AWS
 - **[📖 Case Study Completo](https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md)**
 
-### 🏢 Mindville - Produto B2B (Monorepo)
+### 🏢 The Mindville - Produto B2B (Monorepo)
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)

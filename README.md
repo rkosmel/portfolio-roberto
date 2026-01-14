@@ -14,24 +14,24 @@ Importante:
 - Não inclui código proprietário de terceiros.
 - Não inclui credenciais, chaves ou dados sensíveis.
 
-## 🚀 Quick Start
+## 📂 Como Usar Este Portfólio
 
-### Para Candidaturas
-- **Currículo**: Use PDFs em `./resume/pdf/`
-- **Case Studies**: Referencie links em `./case-studies/`
-- **Cover Letter**: Adapte templates em `./resume/cover-letter/`
+### Para Recrutadores
+- **Currículo PDF**: Baixe os arquivos em `./resume/pdf/`
+- **Case Studies**: Conheça meus projetos em `./case-studies/`
+- **Contato Direto**: roberto.m.kosmel@gmail.com | +55 19 98926-3577
 
-### Para Desenvolvimento
-- **JSON Resume**: Fonte de verdade para atualizações
-- **LaTeX**: Para customização avançada
-- **LinkedIn**: Materiais para perfil profissional
+### Para Referência Rápida
+- **LinkedIn**: Textos otimizados em `./linkedin/`
+- **Cover Letters**: Templates prontos em `./resume/cover-letter/`
+- **Fonte de Verdade**: JSON Resume em `./resume/json/`
 
 ## 📊 Case Studies Preview
 
 | Projeto | Tech Stack | Status |
 |---------|------------|---------|
 | 🚀 Blue Exams | Next.js + AWS | ✅ Produção |
-| 🏢 Mindville | Next.js + PostgreSQL | ✅ Concluído |
+| 🏢 The Mindville | Next.js + PostgreSQL | ✅ Concluído |
 | 🔄 MBA No Brainer | Docker + AWS | ✅ Migrado |
 
 ## Case studies
@@ -43,8 +43,10 @@ Os textos finais ficam em `./case-studies/`:
 - `./case-studies/mba-no-brainer-chatwoot.md`
 
 ## LinkedIn
-- PT: `./linkedin/about.pt.md`
-- EN: `./linkedin/about.en.md`
+- **PT**: `./linkedin/about.pt.md` (texto para bio do LinkedIn)
+- **EN**: `./linkedin/about.en.md` (texto para bio do LinkedIn)
+
+*Como usar: Copie o conteúdo do arquivo correspondente e cole na seção "Sobre" do seu perfil LinkedIn.*
 
 ## Currículo
 - JSON Resume (PT): `./resume/json/resume.pt.json`
