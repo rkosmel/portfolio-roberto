@@ -23,7 +23,7 @@
         "url": "https://www.linkedin.com/in/robertokosmel/"
       }
     ],
-    "summary": "Desenvolvedor Full-Stack Jr com foco em React/Next.js, Node.js (Express) e PostgreSQL. Experiência prática com deploy e manutenção em produção na AWS (EC2, RDS, S3), além de troubleshooting e entregas end-to-end."
+    "summary": "Desenvolvedor Full-Stack Jr com foco em React/Next.js, Node.js (Express) e PostgreSQL. Experiência prática com deploy e manutenção em produção na AWS (EC2, RDS, S3), com responsabilidade por entregas end-to-end e operações em cloud."
   },
   "work": [
     {
@@ -36,7 +36,7 @@
         "Desenvolvimento e evolução de aplicações web com foco em entrega end-to-end.",
         "Criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, Chatwoot, backend Node.js).",
         "Integração com banco de dados PostgreSQL e rotinas de manutenção/debug.",
-        "Suporte a deploy e operação em ambiente AWS (EC2, RDS, S3) e Linux."
+        "Responsabilidade por deploy e operação em AWS (EC2, RDS, S3 + múltiplos serviços) e Linux/Nginx."
       ]
     }
   ],
@@ -58,28 +58,28 @@
   ],
   "skills": [
     {
-      "name": "Linguagens",
-      "keywords": ["JavaScript", "TypeScript", "Python", "C/C++", "SQL"]
+      "name": "Backend",
+      "keywords": ["Node.js", "Express", "TypeScript/JavaScript", "Python", "C/C++", "REST APIs"]
     },
     {
-      "name": "Full-Stack",
-      "keywords": ["Next.js", "React", "Node.js", "Express", "HTML", "CSS", "Tailwind CSS", "REST", "JWT", "NextAuth"]
+      "name": "Frontend",
+      "keywords": ["React", "Next.js", "TypeScript/JavaScript", "HTML5", "CSS3", "Tailwind CSS"]
     },
     {
-      "name": "Dados",
-      "keywords": ["PostgreSQL", "Prisma", "JSON", "DBeaver", "Análise de dados"]
+      "name": "Banco de Dados & Análise",
+      "keywords": ["SQL", "PostgreSQL", "Prisma", "JSON", "DBeaver", "Análise de dados"]
     },
     {
       "name": "Cloud & DevOps",
-      "keywords": ["AWS (EC2, RDS, S3 + múltiplos serviços)", "Docker", "Linux", "Nginx"]
-    },
-    {
-      "name": "Automação & Integrações",
-      "keywords": ["Stripe (pagamentos)", "Zapier", "Twilio", "n8n (em estudo)"]
+      "keywords": ["AWS (EC2, RDS, S3 + múltiplos serviços)", "Docker", "Nginx", "Linux"]
     },
     {
       "name": "Ferramentas",
-      "keywords": ["Git", "VS Code", "Microsoft Office (Avançado)", "Gerenciamento de projetos (Linear, Jira, Monday.com)"]
+      "keywords": ["Git", "Microsoft Office (Avançado)", "Gerenciamento de projetos (Linear, Jira)"]
+    },
+    {
+      "name": "Automação & Integrações",
+      "keywords": ["Stripe (pagamentos)", "Zapier", "Twilio", "n8n"]
     }
   ],
   "languages": [
