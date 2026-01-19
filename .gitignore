@@ -21,3 +21,6 @@ dist/
 
 # Cover letter PDFs (privacy)
 resume/cover-letter/*.pdf
+
+# Cover letter specific files (keep only templates)
+resume/cover-letter/*-*.tex
