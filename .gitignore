@@ -24,3 +24,4 @@ resume/cover-letter/*.pdf
 
 # Cover letter specific files (keep only templates)
 resume/cover-letter/*-*.tex
+resume/cover-letter/!cover-letter-template*.tex
