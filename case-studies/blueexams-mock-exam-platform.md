@@ -9,39 +9,40 @@ A Blue Exams precisava de uma plataforma web de simulados em formato de assinatu
 - Criação e manutenção do conteúdo/banco de questões (11 simulados), com rotinas de inserção e atualização.
 - Deploy e operação em produção na AWS (EC2/RDS/S3), além de troubleshooting e correções com foco em estabilidade.
 
-## Stack (alto nível)
-- Full-stack: Next.js (App Router), React, TypeScript
-- Autenticação: NextAuth
-- Pagamentos: Stripe
-- Banco de dados: PostgreSQL
-- ORM: Prisma
-- Infra/Cloud: AWS (EC2, RDS, S3), Nginx
+## **Stack** (alto nível)
+- **Full-stack**: Next.js (App Router), React, TypeScript
+- **Autenticação**: NextAuth
+- **Pagamentos**: Stripe
+- **Banco de dados**: PostgreSQL
+- **ORM**: Prisma
+- **Infra/Cloud**: AWS (EC2, RDS, S3), Nginx
 
-## Arquitetura (alto nível)
+## **Arquitetura** (alto nível)
 - Aplicação full-stack em Next.js, com rotas/handlers no próprio app.
 - Persistência em PostgreSQL (RDS) via Prisma.
 - Billing e status de assinatura via Stripe.
 - Assets (ex.: imagens) em S3 e aplicação servida via Nginx em EC2.
 
-## Principais features
+## **Principais features**
 - Banco de questões com 11 simulados completos (IR, Verbal, Quant).
-- Experiência “tipo prova”: timer, pausa/retomar, calculadora e navegação consistente.
+- Experiência "tipo prova": timer, pausa/retomar, calculadora e navegação consistente.
 - Salvamento automático de respostas/progresso (com rastreio de tempo) e retomada de sessão.
 - Question Review: comparação de respostas, tempo por questão, filtros e marcação para revisar depois.
-- Analytics: percentil, breakdown por seção, comparação com tentativas anteriores e análise de tempo por questão (ex.: Bubble Chart).
+- **Analytics avançados**: percentil, breakdown por seção, comparação com tentativas anteriores, **correção questão a questão** e **gráficos de tempo vs acerto (Bubble Chart)** para análise detalhada de performance.
+- **Score Calculator**: algoritmo proprietário para calcular pontuação EA com ranking percentil em tempo real.
 
-## Desafios e decisões
+## **Desafios e decisões**
 - Construir o produto 0→1, mantendo entregas rápidas sem abrir mão de estabilidade.
 - Modelagem de dados e controle de acesso para usuários assinantes.
-- UX “tipo prova”: timer, pausa/retomar e salvamento automático para reduzir risco de perda de progresso.
+- UX "tipo prova": timer, pausa/retomar e salvamento automático para reduzir risco de perda de progresso.
 - Correções rápidas em produção e troubleshooting, priorizando impacto no usuário.
 
-## Resultados
-- Plataforma funcional no modelo assinatura, com base técnica para evolução contínua (novos simulados, relatórios, melhorias de UX).
+## **Resultados**
+- Plataforma funcional no modelo assinatura, com **20+ usuários ativos** e base técnica para evolução contínua (novos simulados, relatórios, melhorias de UX).
 - Banco com 11 simulados completos e conteúdos estruturados.
 - Recursos de prova: timer, pausa/retomar, calculadora, salvamento automático de respostas e revisão detalhada de questões.
 - Dashboard de resultados com percentil, breakdown por seção, comparação com tentativas anteriores e análise de tempo por questão (ex.: Bubble Chart).
 
-## Lições / O que eu melhoraria
+## **Lição** / O que eu melhoraria
 - Criar suíte de testes automatizados cobrindo fluxos críticos (auth, assinatura, simulado).
 - Observabilidade mais completa (dashboards e alertas) para reduzir tempo de diagnóstico.
