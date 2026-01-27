@@ -80,7 +80,7 @@ Busco constantemente desafios que me permitam crescer technicalmente e contribui
 ## 📬 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robertokosmel/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:roberto.m.kosmel@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:roberto.m.kosmel@hotmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkosmel/portfolio-roberto)
 
 ---

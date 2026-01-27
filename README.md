@@ -6,7 +6,7 @@
 - GitHub: https://github.com/rkosmel
 - LinkedIn: https://www.linkedin.com/in/robertokosmel/
 - Localização: São José dos Campos, SP (Remoto)
-- Contato: roberto.m.kosmel@gmail.com | +55 19 98926-3577
+- Contato: roberto.m.kosmel@hotmail.com | +55 19 98926-3577
 
 Este repositório reúne **case studies** e materiais de portfólio.
 
@@ -19,7 +19,7 @@ Importante:
 ### Para Recrutadores
 - **Currículo PDF**: Baixe os arquivos em `./resume/pdf/`
 - **Case Studies**: Conheça meus projetos em `./case-studies/`
-- **Contato Direto**: roberto.m.kosmel@gmail.com | +55 19 98926-3577
+- **Contato Direto**: roberto.m.kosmel@hotmail.com | +55 19 98926-3577
 
 ### Para Referência Rápida
 - **LinkedIn**: Textos otimizados em `./linkedin/`
