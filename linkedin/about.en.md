@@ -1,5 +1,7 @@
-I'm a Junior Full-Stack developer with hands-on experience in production web applications, focused on end-to-end delivery and stability.
+I'm a developer with hands-on experience in production web applications, focusing on end-to-end delivery with emphasis on stability, maintainability, and real business impact.
 
-I worked on projects such as Blue Exams, The Mindville, and MBA No Brainer using React/Next.js, Node.js (Express), and PostgreSQL/Prisma, plus authentication (NextAuth), payments (Stripe), and operations on AWS (EC2/RDS/S3), Linux/Nginx, and Docker.
+I worked on projects like Blue Exams, The Mindville, and MBA No Brainer, participating from conception through deployment and operations, using React/Next.js, Node.js (Express), PostgreSQL/Prisma, authentication (NextAuth), payments (Stripe), and infrastructure on AWS, Linux/Nginx, and Docker.
 
-I'm looking for Junior Full-Stack roles (primary) and Junior Cloud/DevOps roles (secondary). Open to remote, hybrid, or in-person work in the São José dos Campos regional area and São Paulo regional area.
+I have a hands-on profile, enjoy understanding problems holistically and taking technical responsibility for the solutions I develop. Open to new challenges in systems development, especially in environments that value autonomy, continuous learning, and technical quality.
+
+Remote, hybrid, or in-person work in the São José dos Campos and São Paulo regions.

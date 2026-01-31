@@ -1,5 +1,7 @@
-Sou desenvolvedor Full-Stack Jr com experiência prática em aplicações web em produção, focado em entregas end-to-end e estabilidade.
+Sou desenvolvedor com experiência prática em aplicações web em produção, atuando em entregas end-to-end, com foco em estabilidade, manutenibilidade e impacto real de negócio.
 
-Atuei em projetos como Blue Exams, The Mindville e MBA No Brainer, trabalhando com React/Next.js, Node.js (Express) e PostgreSQL/Prisma, além de autenticação (NextAuth), pagamentos (Stripe) e operação em AWS, Linux/Nginx e Docker.
+Atuei em projetos como Blue Exams, The Mindville e MBA No Brainer, participando desde a concepção até o deploy e operação, utilizando React/Next.js, Node.js (Express), PostgreSQL/Prisma, autenticação (NextAuth), pagamentos (Stripe) e infraestrutura em AWS, Linux/Nginx e Docker.
 
-Busco oportunidades como Full-Stack Jr (principal) ou Cloud/DevOps Jr (secundário). Aberto para remoto, híbrido ou presencial na região de São José dos Campos e região de São Paulo.
+Tenho perfil mão na massa, gosto de entender o problema como um todo e assumir responsabilidade técnica pelas soluções que desenvolvo. Aberto a novos desafios em desenvolvimento de sistemas, especialmente em ambientes que valorizem autonomia, aprendizado contínuo e qualidade técnica.
+
+Atuação remota, híbrida ou presencial na região de São José dos Campos e São Paulo.
