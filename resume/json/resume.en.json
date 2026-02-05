@@ -34,7 +34,7 @@
       "summary": "Worked across multiple web products with a strong focus on delivery, production stability, and cloud operations support.",
       "highlights": [
         "Built and maintained web applications with end-to-end ownership (frontend, backend, database).",
-        "Created and consumed REST APIs (Next.js endpoints, Stripe, NextAuth, Chatwoot, Node.js backend).",
+        "Created and consumed REST APIs (Next.js endpoints, Stripe, NextAuth, Node.js backend).",
         "Worked with PostgreSQL and Prisma/ORM flows, supporting maintenance and debugging routines.",
         "Responsibility for deployment and operations on AWS (EC2, RDS, S3 + multiple services) and Linux/Nginx."
       ]
@@ -74,6 +74,10 @@
       "keywords": ["AWS (EC2, RDS, S3 + multiple services)", "Docker", "Nginx", "Linux"]
     },
     {
+      "name": "CRM & Support",
+      "keywords": ["Chatwoot", "WhatsApp Business", "Ticket management"]
+    },
+    {
       "name": "Tools",
       "keywords": ["Git", "Microsoft Office (Advanced)", "Project Management (Linear, Jira)"]
     },
@@ -105,10 +109,10 @@
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md"
     },
     {
-      "name": "C- compiler",
-      "description": "Academic compiler implementation in C.",
-      "highlights": ["Lexical, syntactic, and semantic analysis."],
-      "keywords": ["C", "Compilers"],
+      "name": "C compiler",
+      "description": "Complete C compiler implementation for C-- language with lexical, syntactic and semantic analysis, generating intermediate code in quadruples, plus RISC processor in Verilog executing compiled code on FPGA.",
+      "highlights": ["Lexical, syntactic and semantic analysis + intermediate code generation + RISC processor in Verilog for FPGA."],
+      "keywords": ["C", "Compilers", "Verilog", "FPGA", "RISC"],
       "entity": "UNIFESP"
     },
     {
@@ -117,12 +121,6 @@
       "highlights": ["Built in HTML/CSS/JavaScript and operated on AWS EC2 + Nginx with TLS/Let's Encrypt."],
       "keywords": ["HTML", "CSS", "JavaScript", "AWS EC2", "Nginx", "TLS"],
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-landing.md"
-    },
-    {
-      "name": "Electric Ways \u2014 EV routing",
-      "description": "Academic project to generate routes considering driving range and charging stops.",
-      "highlights": ["Route modeling with range and charging constraints."],
-      "entity": "UNIFESP"
     }
   ]
 }

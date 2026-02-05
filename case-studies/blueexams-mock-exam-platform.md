@@ -38,7 +38,7 @@ A Blue Exams precisava de uma plataforma web de simulados em formato de assinatu
 - Correções rápidas em produção e troubleshooting, priorizando impacto no usuário.
 
 ## **Resultados**
-- Plataforma funcional no modelo assinatura, com **20+ usuários ativos** e base técnica para evolução contínua (novos simulados, relatórios, melhorias de UX).
+- Plataforma funcional no modelo assinatura, com **20+ usuários ativos** e **receita de R$1.000 gerada já no primeiro mês de operação**, validando o modelo de negócio e o ciclo completo de construção até monetização.
 - Banco com 11 simulados completos e conteúdos estruturados.
 - Recursos de prova: timer, pausa/retomar, calculadora, salvamento automático de respostas e revisão detalhada de questões.
 - Dashboard de resultados com percentil, breakdown por seção, comparação com tentativas anteriores e análise de tempo por questão (ex.: Bubble Chart).
