@@ -1,7 +1,18 @@
-Sou desenvolvedor com experiência prática em aplicações web em produção, atuando em entregas end-to-end, com foco em estabilidade, manutenibilidade e impacto real de negócio.
+Sou desenvolvedor full-stack com experiência prática em construir aplicações web completas, da concepção ao deploy em produção.
 
-Atuei em projetos como Blue Exams, The Mindville e MBA No Brainer, participando desde a concepção até o deploy e operação, utilizando React/Next.js, Node.js (Express), PostgreSQL/Prisma, autenticação (NextAuth), pagamentos (Stripe) e infraestrutura em AWS, Linux/Nginx e Docker.
+Durante meu estágio na MBA No Brainer participei da criação de produtos como Blue Exams, uma plataforma de simulados por assinatura desenvolvida do zero, com autenticação, sistema de provas, métricas de desempenho e integração de pagamentos com Stripe, implantada em infraestrutura AWS e gerando receita desde o lançamento.
 
-Tenho perfil mão na massa, gosto de entender o problema como um todo e assumir responsabilidade técnica pelas soluções que desenvolvo. Aberto a novos desafios em desenvolvimento de sistemas, especialmente em ambientes que valorizem autonomia, aprendizado contínuo e qualidade técnica.
+Também atuei no desenvolvimento da plataforma The Mindville, voltada para métricas de engajamento educacional, trabalhando em backend, banco de dados e melhoria de performance das consultas.
 
-Atuação remota, híbrida ou presencial na região de São José dos Campos e São Paulo.
+Tenho perfil mão na massa, gosto de entender o problema de ponta a ponta e assumir responsabilidade técnica pelas soluções que construo, desde modelagem de dados até deploy e operação.
+
+Tecnologias com as quais já trabalhei:
+
+React • Next.js • Node.js (Express) • PostgreSQL • Prisma • Stripe • NextAuth • AWS • Linux • Nginx • Docker
+
+Atualmente também desenvolvo um jogo mobile em Unity (C#) como projeto pessoal.
+
+Estou aberto a oportunidades de estágio ou posição júnior em desenvolvimento de software, remoto, híbrido ou presencial na região de São José dos Campos ou São Paulo.
+
+Portfólio e projetos:
+github.com/rkosmel

@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Roberto Santos Mazutti Kosmel",
-    "label": "Junior Full-Stack Developer",
+    "label": "Full-Stack Developer (Intern / Jr)",
     "email": "roberto.m.kosmel@hotmail.com",
     "phone": "+55 19 98926-3577",
     "url": "https://github.com/rkosmel",
@@ -23,7 +23,7 @@
         "url": "https://www.linkedin.com/in/robertokosmel/"
       }
     ],
-    "summary": "Junior Full-Stack developer focused on React/Next.js, Node.js (Express), and PostgreSQL. Hands-on experience with production deployment and operations on AWS (EC2, RDS, S3), with responsibility for end-to-end delivery and cloud operations."
+    "summary": "Junior Full-Stack developer with experience building end-to-end web applications in production. Built a SaaS mock exam subscription platform with Stripe integration and AWS deployment, generating revenue from the first month of operation."
   },
   "work": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Advanced – technical reading and communication"
     }
   ],
   "projects": [

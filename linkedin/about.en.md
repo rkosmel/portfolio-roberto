@@ -1,7 +1,18 @@
-I'm a developer with hands-on experience in production web applications, focusing on end-to-end delivery with emphasis on stability, maintainability, and real business impact.
+I'm a full-stack developer with hands-on experience building complete web applications from conception to production deployment.
 
-I worked on projects like Blue Exams, The Mindville, and MBA No Brainer, participating from conception through deployment and operations, using React/Next.js, Node.js (Express), PostgreSQL/Prisma, authentication (NextAuth), payments (Stripe), and infrastructure on AWS, Linux/Nginx, and Docker.
+During my internship at MBA No Brainer, I participated in creating products like Blue Exams, a subscription mock exam platform developed from scratch with authentication, exam system, performance metrics, and Stripe payment integration, deployed on AWS infrastructure and generating revenue since launch.
 
-I have a hands-on profile, enjoy understanding problems holistically and taking technical responsibility for the solutions I develop. Open to new challenges in systems development, especially in environments that value autonomy, continuous learning, and technical quality.
+I also worked on developing The Mindville platform, focused on educational engagement metrics, working on backend, database, and performance optimization of queries.
 
-Remote, hybrid, or in-person work in the São José dos Campos and São Paulo regions.
+I have a hands-on profile, enjoy understanding problems end-to-end and taking technical responsibility for the solutions I build, from data modeling to deployment and operations.
+
+Technologies I've worked with:
+
+React • Next.js • Node.js (Express) • PostgreSQL • Prisma • Stripe • NextAuth • AWS • Linux • Nginx • Docker
+
+Currently, I'm also developing a mobile game in Unity (C#) as a personal project.
+
+I'm open to internship or junior software development opportunities, remote, hybrid, or in-person in the São José dos Campos or São Paulo regions.
+
+Portfolio and projects:
+github.com/rkosmel
