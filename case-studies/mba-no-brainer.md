@@ -14,3 +14,4 @@ Durante meu estágio na MBA No Brainer, trabalhei em diferentes frentes de produ
 - [Landing page (site institucional)](./blueexams-landing.md)
 - [Plataforma de engajamento (B2B)](./mindville-engagement-platform.md)
 - [Chatwoot em AWS (EC2 + RDS + S3)](./mba-no-brainer-chatwoot.md)
+- [Sistema de automação de ranking (Zapier + AWS)](./mba-no-brainer-automation.md)
