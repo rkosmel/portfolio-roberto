@@ -1,28 +1,22 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[margin=0.8in]{geometry}
+\usepackage[margin=0.62in]{geometry}
 \usepackage{xcolor}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{enumitem}
 
-\pagestyle{empty}  % Remove a numeração das páginas
+\pagestyle{empty}
 
-% Configurações de cores
 \definecolor{accent}{RGB}{20,74,128}
 
-% Configuração dos títulos
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.7mm}{1.4mm}
+\titlespacing{\subsection}{0pt}{1.7mm}{1.4mm}
 
-% Ajuste do espaçamento entre seções
-\titlespacing{\section}{0pt}{2.5mm}{2.5mm}
-\titlespacing{\subsection}{0pt}{2.5mm}{2.5mm}
-
-% Remover indentação do primeiro parágrafo
 \setlength{\parindent}{0pt}
 
-% Hiperlinks
 \hypersetup{
     colorlinks=true,
     linkcolor=accent,
@@ -31,46 +25,59 @@
 
 \begin{document}
 
-\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
 
 \begin{center}
     {\Huge \textbf{Roberto Santos Mazutti Kosmel}} \\
     \vspace{1mm}
-    {\large Full-Stack Developer (Intern / Jr)} \\
+    {\large Junior Full Stack Developer} \\
     \vspace{1mm}
-    São José dos Campos, SP \textbar{} \href{mailto:roberto.m.kosmel@hotmail.com}{\texttt{roberto.m.kosmel@hotmail.com}} \textbar{} +55\,19\,98926-3577 \\
+    São José dos Campos, SP \textbar{} \href{mailto:rs.kosmel@gmail.com}{\texttt{rs.kosmel@gmail.com}} \textbar{} +55\,19\,98926-3577 \\
     \href{https://www.linkedin.com/in/robertokosmel/}{\texttt{linkedin.com/in/robertokosmel}} \textbar{} \href{https://github.com/rkosmel}{\texttt{github.com/rkosmel}}
 \end{center}
 
-\vspace{2mm}
+\vspace{1.5mm}
 
 \section*{Summary}
-Junior Full-Stack developer with experience building end-to-end web applications in production. Built a SaaS mock exam subscription platform with Stripe integration and AWS deployment, generating revenue from the first month of operation.
+Junior Full Stack Developer with experience in production web applications and current work on software development, requirements, documentation, discovery and backlog organization. Main stack: TypeScript, React/Next.js, Node.js, PostgreSQL, AWS and Azure DevOps; I use AI as a supervised support tool for analysis and documentation.
 
 \section*{Experience}
-\textbf{Software Engineering Intern (Full-Stack)} --- Blue Exams / The Mindville / MBA No Brainer \hfill Apr 2025 — Dec 2025 \\
+\textbf{Junior Full Stack Developer -- Contractor} --- ControlLed \hfill Apr 2026 -- Present \\
 \begin{itemize}
-    \item Built an end-to-end (0->1) subscription-based mock exam web platform, including exam flows (timer, pause/resume, autosave) and analytics.
-    \item Created and consumed REST APIs (Next.js endpoints, Stripe, NextAuth, Node.js backend) and CRM integration (Chatwoot).
-    \item Implemented authentication and subscription billing (NextAuth, Stripe) with PostgreSQL persistence via Prisma.
-    \item Supported deployment and production operations on AWS and Linux/Nginx, including troubleshooting and data/asset migration.
+    \item Supported discovery, MVP definition, requirements organization and high-level functional/technical documentation.
+    \item Created and reviewed SRS, FRD, user stories, acceptance criteria, prioritization matrices and presentations.
+    \item Structured backlog items in Azure DevOps and used supervised AI workflows for transcript analysis, decision summaries and document review.
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{Full Stack Development Intern} --- Blue Exams / The Mindville / MBA No Brainer \hfill Apr 2025 -- Dec 2025 \\
+\begin{itemize}
+    \item Built and maintained web applications with end-to-end delivery across frontend, backend and database layers.
+    \item Created REST APIs and integrations with Next.js, Node.js, NextAuth, Stripe, PostgreSQL and Prisma.
+    \item Supported deployment and operations on AWS, Linux, Nginx and Docker, including troubleshooting and data/asset migration.
 \end{itemize}
 
 \section*{Selected Projects}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
-    \textbf{Blue Exams --- Mock exam platform} & 2025 \\
+    \textbf{Blue Exams --- Mock exam subscription platform} & 2025 \\
 \end{tabular*}
 \begin{itemize}
-    \item Construction 0→1 of SaaS mock exam platform with complete system: timer, pause, auto-save and metrics.
-    \item Stripe + NextAuth integration, Node.js backend + PostgreSQL (Prisma) and AWS deployment.
-    \item Platform in production generating revenue from first month.
+    \item Web platform with authentication, billing, exam flows, dashboard and PostgreSQL/Prisma persistence.
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{McIntosh V8 --- Mobile game in Unity} & 2026 \\
+\end{tabular*}
+\begin{itemize}
+    \item Personal Unity/C\# project with vehicle physics, touch controls, endless road, procedural traffic, audio and scoring.
 \end{itemize}
 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
     \textbf{C language compiler} & 2024 \\
 \end{tabular*}
 \begin{itemize}
-    \item Complete C compiler implementation for C-- language with lexical, syntactic and semantic analysis, generating intermediate code in quadruples, plus RISC processor in Verilog executing compiled code on FPGA.
+    \item C compiler for a C-- language with lexical, syntactic and semantic analysis, intermediate code generation and RISC processor in Verilog.
 \end{itemize}
 
 \section*{Education}
@@ -79,21 +86,16 @@ Junior Full-Stack developer with experience building end-to-end web applications
 
 \section*{Skills}
 \begin{itemize}
-    \item \textbf{Backend}: Node.js, Express, TypeScript/JavaScript, Python, C/C++, REST APIs
-    \item \textbf{Frontend}: React, Next.js, TypeScript/JavaScript, HTML5, CSS3, Tailwind CSS
-    \item \textbf{Database \& Analysis}: SQL, PostgreSQL, Prisma, JSON, DBeaver, Data Analysis
-    \item \textbf{Cloud \& DevOps}: AWS (EC2, RDS, S3 + multiple services), Docker, Nginx, Linux
-    \item \textbf{CRM \& Support}: Chatwoot, WhatsApp Business, ticket management
-    \item \textbf{Tools}: Git, Microsoft Office (Advanced), Project Management (Linear, Jira)
-    \item \textbf{Automation \& Integrations}: Stripe (payments), Zapier, Twilio, n8n
+    \item \textbf{Web}: TypeScript/JavaScript, React, Next.js, Node.js, Express, HTML5, CSS3, Tailwind CSS, REST APIs
+    \item \textbf{Data, Cloud \& DevOps}: SQL, PostgreSQL, Prisma, DBeaver, AWS, Docker, Nginx, Linux
+    \item \textbf{Product, Requirements \& AI}: discovery, SRS, FRD, user stories, acceptance criteria, backlog, Azure DevOps, transcript analysis, decision summaries
+    \item \textbf{Other}: Python, C/C++, Unity, C\#, URP, Input System, vehicle physics
 \end{itemize}
 
 \section*{Languages}
-Portuguese (Native) \textbar{} English (Advanced – technical reading and communication)
+Portuguese (Native) \textbar{} English (Advanced -- technical reading and communication)
 
-\section*{Extracurricular Activities}
-\textbf{University basketball team captain}: leadership, training organization and participation in university championships and local competitions.
-
-\textbf{Leadership and development}: coordination of academic technical projects, active participation in technology communities and open-source contributions, seeking continuous learning and networking.
+\section*{Activities}
+University basketball team captain, with experience organizing practices, group communication and competition participation.
 
 \end{document}

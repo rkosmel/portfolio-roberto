@@ -16,4 +16,5 @@ O que eu mais gostei foi o lado "produto + engenharia": entender o que precisava
 
 Por confidencialidade, não compartilho código da empresa — mas preparei um case study (alto nível) com arquitetura e aprendizados.
 
-Aberto a oportunidades como **Full-Stack Jr** e também **Cloud/DevOps Jr**.
+Case study completo no portfólio:
+github.com/rkosmel/portfolio-roberto

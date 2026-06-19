@@ -1,28 +1,22 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[margin=0.8in]{geometry}
+\usepackage[margin=0.62in]{geometry}
 \usepackage{xcolor}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{enumitem}
 
-\pagestyle{empty}  % Remove a numeração das páginas
+\pagestyle{empty}
 
-% Configurações de cores
 \definecolor{accent}{RGB}{20,74,128}
 
-% Configuração dos títulos
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.7mm}{1.4mm}
+\titlespacing{\subsection}{0pt}{1.7mm}{1.4mm}
 
-% Ajuste do espaçamento entre seções
-\titlespacing{\section}{0pt}{2.5mm}{2.5mm}
-\titlespacing{\subsection}{0pt}{2.5mm}{2.5mm}
-
-% Remover indentação do primeiro parágrafo
 \setlength{\parindent}{0pt}
 
-% Hiperlinks
 \hypersetup{
     colorlinks=true,
     linkcolor=accent,
@@ -31,46 +25,59 @@
 
 \begin{document}
 
-\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
 
 \begin{center}
     {\Huge \textbf{Roberto Santos Mazutti Kosmel}} \\
     \vspace{1mm}
-    {\large Desenvolvedor Full-Stack (Estágio / Jr)} \\
+    {\large Desenvolvedor Full Stack Júnior} \\
     \vspace{1mm}
-    São José dos Campos, SP \textbar{} \href{mailto:roberto.m.kosmel@hotmail.com}{\texttt{roberto.m.kosmel@hotmail.com}} \textbar{} +55\,19\,98926-3577 \\
+    São José dos Campos, SP \textbar{} \href{mailto:rs.kosmel@gmail.com}{\texttt{rs.kosmel@gmail.com}} \textbar{} +55\,19\,98926-3577 \\
     \href{https://www.linkedin.com/in/robertokosmel/}{\texttt{linkedin.com/in/robertokosmel}} \textbar{} \href{https://github.com/rkosmel}{\texttt{github.com/rkosmel}}
 \end{center}
 
-\vspace{2mm}
+\vspace{1.5mm}
 
 \section*{Resumo}
-Desenvolvedor Full-Stack Jr com experiência em construir aplicações web end-to-end em produção. Desenvolvi uma plataforma SaaS de simulados por assinatura com integração Stripe e deploy em AWS, gerando receita desde o primeiro mês de operação.
+Desenvolvedor Full Stack Júnior com experiência em aplicações web em produção e atuação atual em desenvolvimento, requisitos, documentação, discovery e backlog. Stack principal: TypeScript, React/Next.js, Node.js, PostgreSQL, AWS e Azure DevOps; uso IA como apoio supervisionado para análise e documentação.
 
 \section*{Experiência}
-\textbf{Estagiário de Desenvolvimento (Full-Stack)} --- Blue Exams / The Mindville / MBA No Brainer \hfill Abr 2025 — Dez 2025 \\
+\textbf{Desenvolvedor Full Stack Júnior PJ} --- ControlLed \hfill Abr 2026 -- Atual \\
 \begin{itemize}
-    \item Construção end-to-end (0->1) de plataforma web de simulados por assinatura, com fluxos de prova (cronômetro, pausa/retomar, salvamento automático) e métricas.
-    \item Criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, backend Node.js) e integração com CRM (Chatwoot).
-    \item Integrações de autenticação e assinatura (NextAuth, Stripe) e persistência em PostgreSQL via Prisma.
-    \item Deploy e operação em AWS e Linux/Nginx, incluindo troubleshooting e migração de dados/ativos.
+    \item Apoio em discovery, definição de MVP, organização de requisitos e documentação funcional/técnica de alto nível.
+    \item Criação e revisão de SRS, FRD, user stories, critérios de aceitação, matrizes de priorização e apresentações.
+    \item Estruturação de backlog no Azure DevOps e uso supervisionado de IA para análise de transcrições, síntese de decisões e revisão de documentos.
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{Estagiário de Desenvolvimento Full Stack} --- MBA No Brainer \hfill Abr 2025 -- Dez 2025 \\
+\begin{itemize}
+    \item Desenvolvimento e evolução de aplicações web como Blue Exams e The Mindville, com foco em entrega end-to-end.
+    \item APIs REST e integrações com Next.js, Node.js, NextAuth, Stripe, PostgreSQL e Prisma.
+    \item Apoio em deploy e operação em AWS, Linux, Nginx e Docker, incluindo troubleshooting e migração de dados/ativos.
 \end{itemize}
 
 \section*{Projetos selecionados}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
-    \textbf{Blue Exams --- Plataforma de simulados} & 2025 \\
+    \textbf{Blue Exams --- Plataforma de simulados por assinatura} & 2025 \\
 \end{tabular*}
 \begin{itemize}
-    \item Construção 0→1 de plataforma SaaS de simulados com sistema completo: timer, pausa, salvamento e métricas.
-    \item Integração Stripe + NextAuth, backend Node.js + PostgreSQL (Prisma) e deploy AWS.
-    \item Plataforma em produção gerando receita desde o primeiro mês.
+    \item Plataforma web com autenticação, billing, provas, dashboard e persistência em PostgreSQL/Prisma.
+\end{itemize}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{McIntosh V8 --- Jogo mobile em Unity} & 2026 \\
+\end{tabular*}
+\begin{itemize}
+    \item Projeto pessoal em Unity/C\# com física de veículo, controles touch, pista infinita, tráfego procedural, áudio e pontuação.
 \end{itemize}
 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
     \textbf{Compilador para linguagem C} & 2024 \\
 \end{tabular*}
 \begin{itemize}
-    \item Implementação de compilador em C para linguagem C-- com análise léxica, sintática e semântica, gerando código intermediário em quádruplas, além de processador RISC em Verilog executando código compilado em FPGA.
+    \item Compilador em C para linguagem C-- com análise léxica, sintática e semântica, geração de código intermediário e processador RISC em Verilog.
 \end{itemize}
 
 \section*{Educação}
@@ -79,21 +86,16 @@ Desenvolvedor Full-Stack Jr com experiência em construir aplicações web end-t
 
 \section*{Habilidades}
 \begin{itemize}
-    \item \textbf{Backend}: Node.js, Express, TypeScript/JavaScript, Python, C/C++, REST APIs
-    \item \textbf{Frontend}: React, Next.js, TypeScript/JavaScript, HTML5, CSS3, Tailwind CSS
-    \item \textbf{Banco de Dados \& Análise}: SQL, PostgreSQL, Prisma, JSON, DBeaver, Análise de dados
-    \item \textbf{Cloud \& DevOps}: AWS (EC2, RDS, S3 + múltiplos serviços), Docker, Nginx, Linux
-    \item \textbf{CRM e Suporte}: Chatwoot, WhatsApp Business, gestão de chamados técnicos
-    \item \textbf{Ferramentas}: Git, Microsoft Office (Avançado), Gerenciamento de projetos (Linear, Jira)
-    \item \textbf{Automação \& Integrações}: Stripe (pagamentos), Zapier, Twilio, n8n
+    \item \textbf{Web}: TypeScript/JavaScript, React, Next.js, Node.js, Express, HTML5, CSS3, Tailwind CSS, REST APIs
+    \item \textbf{Dados, Cloud \& DevOps}: SQL, PostgreSQL, Prisma, DBeaver, AWS, Docker, Nginx, Linux
+    \item \textbf{Produto, Requisitos \& IA}: discovery, SRS, FRD, user stories, critérios de aceitação, backlog, Azure DevOps, análise de transcrições, síntese de decisões
+    \item \textbf{Outros}: Python, C/C++, Unity, C\#, URP, Input System, física de veículos
 \end{itemize}
 
 \section*{Idiomas}
-Português (Nativo) \textbar{} Inglês (Avançado – leitura técnica e comunicação)
+Português (Nativo) \textbar{} Inglês (Avançado -- leitura técnica e comunicação)
 
-\section*{Atividades Extracurriculares}
-\textbf{Capitão do time de basquete universitário}: liderança, organização de treinos e participação em campeonatos universitários e competições locais.
-
-\textbf{Liderança e desenvolvimento}: coordenação de projetos técnicos acadêmicos, participação ativa em comunidades de tecnologia e contribuições open-source, buscando constante aprendizado e networking.
+\section*{Atividades}
+Capitão do time de basquete universitário, com experiência em organização de treinos, comunicação de grupo e participação em competições.
 
 \end{document}

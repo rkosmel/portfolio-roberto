@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Roberto Santos Mazutti Kosmel",
-    "label": "Desenvolvedor Full-Stack (Estágio / Jr)",
-    "email": "roberto.m.kosmel@hotmail.com",
+    "label": "Desenvolvedor Full Stack Júnior",
+    "email": "rs.kosmel@gmail.com",
     "phone": "+55 19 98926-3577",
     "url": "https://github.com/rkosmel",
     "location": {
@@ -23,20 +23,32 @@
         "url": "https://www.linkedin.com/in/robertokosmel/"
       }
     ],
-    "summary": "Desenvolvedor Full-Stack Jr com experiência em construir aplicações web end-to-end em produção. Desenvolvi uma plataforma SaaS de simulados por assinatura com integração Stripe e deploy em AWS, gerando receita desde o primeiro mês de operação."
+    "summary": "Desenvolvedor Full Stack Júnior com experiência em aplicações web em produção e atuação atual em iniciativas digitais envolvendo desenvolvimento, requisitos, documentação, discovery e organização de backlog. Trabalho principalmente com TypeScript, React/Next.js, Node.js, PostgreSQL, AWS e ferramentas de produto, usando IA como apoio supervisionado para acelerar análise, documentação e organização de conhecimento."
   },
   "work": [
     {
+      "name": "ControlLed",
+      "position": "Desenvolvedor Full Stack Júnior PJ",
+      "startDate": "2026-04-01",
+      "summary": "Atuação em desenvolvimento de software e organização de produto para iniciativas digitais, com foco em requisitos, documentação, discovery e estruturação de backlog.",
+      "highlights": [
+        "Apoio em discovery, definição de MVP, organização de requisitos e documentação funcional/técnica de alto nível.",
+        "Criação e revisão de SRS, FRD, user stories, critérios de aceitação, matrizes de priorização e apresentações para alinhamento entre áreas técnicas e de negócio.",
+        "Estruturação de backlog no Azure DevOps, apoiando a passagem de documentação de produto para itens acionáveis de desenvolvimento.",
+        "Uso supervisionado de IA para análise de transcrições, síntese de decisões, comparação de documentos, revisão de textos e apoio ao estudo técnico."
+      ]
+    },
+    {
       "name": "Blue Exams / The Mindville / MBA No Brainer",
-      "position": "Estagiário de Desenvolvimento (Full-Stack)",
+      "position": "Estagiário de Desenvolvimento Full Stack",
       "startDate": "2025-04-22",
       "endDate": "2025-12-19",
       "summary": "Atuação em múltiplos produtos web com foco em entrega, estabilidade em produção e suporte a operações em cloud.",
       "highlights": [
         "Desenvolvimento e evolução de aplicações web com foco em entrega end-to-end.",
-        "Criação e consumo de APIs REST (endpoints Next.js, Stripe, NextAuth, backend Node.js).",
-        "Integração com banco de dados PostgreSQL e rotinas de manutenção/debug.",
-        "Responsabilidade por deploy e operação em AWS (EC2, RDS, S3 + múltiplos serviços) e Linux/Nginx."
+        "Criação e consumo de APIs REST com Next.js, Node.js, NextAuth, Stripe e integrações externas.",
+        "Integração com PostgreSQL e Prisma, incluindo manutenção, debugging e ajustes em produção.",
+        "Apoio em deploy e operação em AWS, Linux, Nginx e Docker, incluindo troubleshooting e migração de dados/ativos."
       ]
     }
   ],
@@ -67,23 +79,27 @@
     },
     {
       "name": "Banco de Dados & Análise",
-      "keywords": ["SQL", "PostgreSQL", "Prisma", "JSON", "DBeaver", "Análise de dados"]
+      "keywords": ["SQL", "PostgreSQL", "Prisma", "JSON", "DBeaver", "Modelagem de dados", "Análise de dados"]
     },
     {
       "name": "Cloud & DevOps",
-      "keywords": ["AWS (EC2, RDS, S3 + múltiplos serviços)", "Docker", "Nginx", "Linux"]
+      "keywords": ["AWS", "Docker", "Nginx", "Linux"]
     },
     {
-      "name": "CRM e Suporte",
-      "keywords": ["Chatwoot", "WhatsApp Business", "Gestão de chamados técnicos"]
+      "name": "Produto & Requisitos",
+      "keywords": ["Product discovery", "SRS", "FRD", "User stories", "Critérios de aceitação", "Backlog", "T-shirt sizing", "Azure DevOps"]
     },
     {
-      "name": "Ferramentas",
-      "keywords": ["Git", "Microsoft Office (Avançado)", "Gerenciamento de projetos (Linear, Jira)"]
+      "name": "IA Aplicada",
+      "keywords": ["Análise de transcrições", "Síntese de decisões", "Comparação de documentos", "Documentação técnica", "Organização de conhecimento"]
     },
     {
       "name": "Automação & Integrações",
-      "keywords": ["Stripe (pagamentos)", "Zapier", "Twilio", "n8n"]
+      "keywords": ["Stripe", "NextAuth", "Chatwoot", "Twilio", "Zapier", "n8n"]
+    },
+    {
+      "name": "Game Development",
+      "keywords": ["Unity", "C#", "URP", "Input System", "Física de veículos"]
     }
   ],
   "languages": [
@@ -92,34 +108,42 @@
       "fluency": "Nativo"
     },
     {
-      "language": "Ingl\u00eas",
-      "fluency": "Avan\u00e7ado – leitura t\u00e9cnica e comunica\u00e7\u00e3o"
+      "language": "Inglês",
+      "fluency": "Avançado – leitura técnica e comunicação"
     }
   ],
   "projects": [
     {
-      "name": "Blue Exams — Plataforma de simulados (assinatura)",
-      "description": "Plataforma web de simulados por assinatura, com autenticação, billing e dashboard.",
+      "name": "Blue Exams — Plataforma de simulados por assinatura",
+      "description": "Plataforma web de simulados por assinatura, com autenticação, billing, fluxo de provas e dashboard.",
       "highlights": [
-        "Implementação de fluxos principais (login e dashboard) em Next.js/React.",
-        "Consumo de APIs REST para autenticação (NextAuth) e pagamentos (Stripe).",
-        "Autenticação e controle de acesso via NextAuth, com billing/assinatura via Stripe.",
+        "Implementação de fluxos principais em Next.js/React, incluindo login, dashboard e experiência de prova.",
+        "Integração de autenticação e controle de acesso com NextAuth e assinatura via Stripe.",
         "Persistência em PostgreSQL via Prisma, com manutenção e correções em produção."
       ],
       "keywords": ["Next.js", "React", "NextAuth", "Stripe", "PostgreSQL", "Prisma"],
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md"
     },
     {
+      "name": "McIntosh V8 — Jogo mobile em Unity",
+      "description": "Projeto pessoal de jogo mobile de direção em Unity/C#, com pista infinita, tráfego procedural, controles touch, áudio e pontuação.",
+      "highlights": [
+        "Implementação de movimentação de veículo com física, aceleração, frenagem, direção por volante virtual e fallback por teclado.",
+        "Criação de sistemas de pista infinita, spawn/limpeza de NPCs, score por distância/velocidade, áudio e tela de game over."
+      ],
+      "keywords": ["Unity", "C#", "URP", "Input System", "Mobile", "Game development"]
+    },
+    {
       "name": "Compilador para linguagem C",
-      "description": "Compilador completo em C para linguagem C-- com análise léxica, sintática e semântica, gerando código intermediário em quádruplas, além de processador RISC em Verilog executando código compilado em FPGA.",
-      "highlights": ["Análise léxica, sintática e semântica + geração de código intermediário + processador RISC em Verilog para FPGA."],
+      "description": "Compilador em C para linguagem C-- com análise léxica, sintática e semântica, geração de código intermediário em quádruplas e processador RISC em Verilog para execução em FPGA.",
+      "highlights": ["Análise léxica, sintática e semântica, geração de código intermediário e processador RISC em Verilog."],
       "keywords": ["C", "Compiladores", "Verilog", "FPGA", "RISC"],
       "entity": "UNIFESP"
     },
     {
-      "name": "Blue Exams \u2014 Landing page (site institucional)",
-      "description": "Site institucional est\u00e1tico com deploy em servidor Linux.",
-      "highlights": ["Site em HTML/CSS/JavaScript com opera\u00e7\u00e3o em AWS EC2 + Nginx e TLS/Let's Encrypt."],
+      "name": "Blue Exams — Landing page",
+      "description": "Site institucional estático com deploy em servidor Linux.",
+      "highlights": ["Site em HTML/CSS/JavaScript com operação em AWS EC2, Nginx e TLS/Let's Encrypt."],
       "keywords": ["HTML", "CSS", "JavaScript", "AWS EC2", "Nginx", "TLS"],
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-landing.md"
     }

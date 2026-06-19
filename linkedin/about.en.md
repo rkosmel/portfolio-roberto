@@ -1,18 +1,17 @@
-I'm a full-stack developer with hands-on experience building complete web applications from conception to production deployment.
+I'm a Junior Full Stack Developer at ControlLed and a Computer Engineering student at UNIFESP, with a Bachelor's degree in Science and Technology.
 
-During my internship at MBA No Brainer, I participated in creating products like Blue Exams, a subscription mock exam platform developed from scratch with authentication, exam system, performance metrics, and Stripe payment integration, deployed on AWS infrastructure and generating revenue since launch.
+I work across software development and product organization for digital initiatives, connecting requirements, technical documentation, backlog structure and implementation. My current work includes supporting discovery, MVP definition, SRS/FRD creation and review, user stories, acceptance criteria, prioritization matrices and backlog structuring in Azure DevOps, working with both technical and business stakeholders.
 
-I also worked on developing The Mindville platform, focused on educational engagement metrics, working on backend, database, and performance optimization of queries.
+I use AI as a supervised support tool to accelerate meeting transcript analysis, decision summaries, document comparison, text review and knowledge organization. I see AI as a way to improve productivity and clarity, not as a replacement for technical understanding.
 
-I have a hands-on profile, enjoy understanding problems end-to-end and taking technical responsibility for the solutions I build, from data modeling to deployment and operations.
+Before ControlLed, I worked as a full-stack development intern at MBA No Brainer / Blue Exams / The Mindville, contributing to production web applications using Next.js, React, Node.js, PostgreSQL, Prisma, NextAuth, Stripe, AWS, Linux, Nginx and Docker. I contributed to a subscription mock exam platform, landing pages, integrations, Chatwoot and deployment/operations routines.
 
-Technologies I've worked with:
+I also develop, when time allows, a mobile game in Unity/C# as a personal project, exploring vehicle physics, touch controls, procedural traffic, audio systems and score loops.
 
-React • Next.js • Node.js (Express) • PostgreSQL • Prisma • Stripe • NextAuth • AWS • Linux • Nginx • Docker
+I have a hands-on and self-directed profile. I enjoy understanding the problem before coding, turning scattered information into actionable backlog items and improving fundamentals such as SOLID, design patterns, database modeling and OAuth2.
 
-Currently, I'm also developing a mobile game in Unity (C#) as a personal project.
-
-I'm open to internship or junior software development opportunities, remote, hybrid, or in-person in the São José dos Campos or São Paulo regions.
+Technologies and tools:
+TypeScript - React - Next.js - Node.js - PostgreSQL - Prisma - AWS - Docker - Linux - Azure DevOps - Unity/C#
 
 Portfolio and projects:
 github.com/rkosmel

@@ -14,4 +14,5 @@ High-level stack:
 
 For confidentiality, I don’t share company code — but I wrote a high-level case study with architecture and learnings.
 
-Open to Junior Full-Stack and Junior Cloud/DevOps opportunities.
+Full case study in my portfolio:
+github.com/rkosmel/portfolio-roberto

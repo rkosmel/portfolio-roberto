@@ -1,17 +1,19 @@
 # Roberto Kosmel
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Full-Stack+Developer;Building+reliable+systems)](https://github.com/rkosmel)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Junior+Full+Stack+Developer;Product+%2B+AI-assisted+Engineering)](https://github.com/rkosmel)
 
 [![GitHub followers](https://img.shields.io/github/followers/rkosmel?style=social&label=Follow&color=0ea5e9)](https://github.com/rkosmel)
 [![GitHub stars](https://img.shields.io/github/stars/rkosmel?style=social&label=Stars&color=0ea5e9)](https://github.com/rkosmel)
 
 ## Sobre Mim
 
-Desenvolvedor Full-Stack Jr com forte experiência em codificação e construção de sistemas completos do zero. Minha paixão é transformar ideias inovadoras em produtos funcionais, com foco em entregas end-to-end e alta qualidade técnica.
+Desenvolvedor Full Stack Júnior, estudante de Engenharia da Computação na UNIFESP e formado em Bacharelado em Ciência e Tecnologia.
 
-Tenho habilidade sólida em stacks modernas como Next.js, React, Node.js e AWS, sempre buscando criar soluções escaláveis e estáveis. Fora da programação, sou apaixonado por basquete - jogo há anos e levo muito a sério tanto os treinos quanto as competições universitárias. Também curto muito videogames, tecnologia e estou sempre explorando novas inovações para tirar ideias do papel.
+Atualmente atuo na ControlLed em iniciativas digitais que conectam desenvolvimento de software, produto, requisitos, documentação, discovery e organização de backlog. Minha stack principal envolve TypeScript, React/Next.js, Node.js, PostgreSQL, AWS e ferramentas de produto como Azure DevOps.
 
-Busco constantemente desafios que me permitam crescer technicalmente e contribuir com projetos que façam diferença.
+Antes disso, estagiei na MBA No Brainer / Blue Exams / The Mindville, contribuindo com aplicações web em produção, integrações, operação em cloud e suporte a produtos digitais.
+
+Também desenvolvo, quando possível, um jogo mobile em Unity/C# como projeto pessoal. Fora da programação, gosto de basquete, videogames e tecnologia.
 
 ---
 
@@ -44,8 +46,8 @@ Busco constantemente desafios que me permitam crescer technicalmente e contribui
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-- **Construção 0→1** completa com autenticação, pagamentos e analytics
-- **Deploy em produção** com setup completo em AWS
+- **Participação na construção 0→1** de uma plataforma com autenticação, pagamentos e métricas
+- **Apoio em produção** com AWS, PostgreSQL, Prisma, NextAuth e Stripe
 - **[📖 Case Study Completo](https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md)**
 
 ### 🏢 The Mindville - Produto B2B (Monorepo)
@@ -53,8 +55,8 @@ Busco constantemente desafios que me permitam crescer technicalmente e contribui
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-- **Contribuições full-stack** em arquitetura escalável
-- **Multi-tenancy e segurança** com APIs REST
+- **Contribuições full-stack** em backend, banco de dados e telas de produto
+- **Apoio em performance** de consultas e evolução de funcionalidades
 - **[📖 Case Study Completo](https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/mindville-engagement-platform.md)**
 
 ### 🔄 MBA No Brainer - Migração Chatwoot
@@ -62,25 +64,32 @@ Busco constantemente desafios que me permitam crescer technicalmente e contribui
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-- **Setup completo** em cloud com Docker Compose
+- **Apoio em setup e migração** em cloud com Docker Compose
 - **Runbook de migração** com estratégia de rollback
 - **[📖 Case Study Completo](https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/mba-no-brainer-chatwoot.md)**
+
+### 🎮 McIntosh V8 - Jogo mobile em Unity
+[![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)](https://unity.com/)
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+
+- **Projeto pessoal** de jogo mobile de direção em Unity/C#
+- **Sistemas de gameplay** com física de veículo, controles touch, pista infinita, tráfego procedural, áudio e pontuação
 
 ---
 
 ## 🧠 Aprendizados Recentes
 
-- **Arquitetura de Sistemas**: Design de aplicações escaláveis e manuteníveis
-- **Cloud & DevOps**: Deploy, operação e otimização em ambiente AWS
-- **Liderança Técnica**: Gestão de equipe e projetos complexos
-- **Metodologias Ágeis**: MVP, planejamento iterativo e entrega contínua
+- **Produto & Requisitos**: discovery, MVP, SRS/FRD, user stories, critérios de aceitação e backlog
+- **IA Aplicada**: análise de transcrições, síntese de decisões, revisão de documentos e organização de conhecimento
+- **Cloud & DevOps**: deploy, operação e troubleshooting em AWS/Linux/Nginx/Docker
+- **Fundamentos**: SOLID, design patterns, modelagem de banco de dados e OAuth2
 
 ---
 
 ## 📬 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robertokosmel/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:roberto.m.kosmel@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rs.kosmel@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkosmel/portfolio-roberto)
 
 ---

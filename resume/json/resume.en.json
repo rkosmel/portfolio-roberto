@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Roberto Santos Mazutti Kosmel",
-    "label": "Full-Stack Developer (Intern / Jr)",
-    "email": "roberto.m.kosmel@hotmail.com",
+    "label": "Junior Full Stack Developer",
+    "email": "rs.kosmel@gmail.com",
     "phone": "+55 19 98926-3577",
     "url": "https://github.com/rkosmel",
     "location": {
@@ -23,20 +23,32 @@
         "url": "https://www.linkedin.com/in/robertokosmel/"
       }
     ],
-    "summary": "Junior Full-Stack developer with experience building end-to-end web applications in production. Built a SaaS mock exam subscription platform with Stripe integration and AWS deployment, generating revenue from the first month of operation."
+    "summary": "Junior Full Stack Developer with experience in production web applications and current work on digital initiatives involving software development, requirements, documentation, discovery and backlog organization. Main stack includes TypeScript, React/Next.js, Node.js, PostgreSQL, AWS and product tools, using AI as a supervised support tool to accelerate analysis, documentation and knowledge organization."
   },
   "work": [
     {
+      "name": "ControlLed",
+      "position": "Junior Full Stack Developer - Contractor",
+      "startDate": "2026-04-01",
+      "summary": "Work across software development and product organization for digital initiatives, with focus on requirements, documentation, discovery and backlog structuring.",
+      "highlights": [
+        "Supported discovery, MVP definition, requirements organization and high-level functional/technical documentation.",
+        "Created and reviewed SRS, FRD, user stories, acceptance criteria, prioritization matrices and presentations for technical/business alignment.",
+        "Structured backlog items in Azure DevOps, helping translate product documentation into actionable development work.",
+        "Used supervised AI workflows for transcript analysis, decision summaries, document comparison, text review and technical learning support."
+      ]
+    },
+    {
       "name": "Blue Exams / The Mindville / MBA No Brainer",
-      "position": "Software Engineering Intern (Full-Stack)",
+      "position": "Full Stack Development Intern",
       "startDate": "2025-04-22",
       "endDate": "2025-12-19",
-      "summary": "Worked across multiple web products with a strong focus on delivery, production stability, and cloud operations support.",
+      "summary": "Worked across multiple web products with a focus on delivery, production stability and cloud operations support.",
       "highlights": [
-        "Built and maintained web applications with end-to-end ownership (frontend, backend, database).",
-        "Created and consumed REST APIs (Next.js endpoints, Stripe, NextAuth, Node.js backend).",
-        "Worked with PostgreSQL and Prisma/ORM flows, supporting maintenance and debugging routines.",
-        "Responsibility for deployment and operations on AWS (EC2, RDS, S3 + multiple services) and Linux/Nginx."
+        "Built and maintained web applications with end-to-end delivery across frontend, backend and database layers.",
+        "Created and consumed REST APIs with Next.js, Node.js, NextAuth, Stripe and external integrations.",
+        "Worked with PostgreSQL and Prisma, supporting maintenance, debugging and production fixes.",
+        "Supported deployment and operations on AWS, Linux, Nginx and Docker, including troubleshooting and data/asset migration."
       ]
     }
   ],
@@ -67,23 +79,27 @@
     },
     {
       "name": "Database & Analysis",
-      "keywords": ["SQL", "PostgreSQL", "Prisma", "JSON", "DBeaver", "Data Analysis"]
+      "keywords": ["SQL", "PostgreSQL", "Prisma", "JSON", "DBeaver", "Data modeling", "Data analysis"]
     },
     {
       "name": "Cloud & DevOps",
-      "keywords": ["AWS (EC2, RDS, S3 + multiple services)", "Docker", "Nginx", "Linux"]
+      "keywords": ["AWS", "Docker", "Nginx", "Linux"]
     },
     {
-      "name": "CRM & Support",
-      "keywords": ["Chatwoot", "WhatsApp Business", "Ticket management"]
+      "name": "Product & Requirements",
+      "keywords": ["Product discovery", "SRS", "FRD", "User stories", "Acceptance criteria", "Backlog", "T-shirt sizing", "Azure DevOps"]
     },
     {
-      "name": "Tools",
-      "keywords": ["Git", "Microsoft Office (Advanced)", "Project Management (Linear, Jira)"]
+      "name": "Applied AI",
+      "keywords": ["Transcript analysis", "Decision summaries", "Document comparison", "Technical documentation", "Knowledge organization"]
     },
     {
       "name": "Automation & Integrations",
-      "keywords": ["Stripe (payments)", "Zapier", "Twilio", "n8n"]
+      "keywords": ["Stripe", "NextAuth", "Chatwoot", "Twilio", "Zapier", "n8n"]
+    },
+    {
+      "name": "Game Development",
+      "keywords": ["Unity", "C#", "URP", "Input System", "Vehicle physics"]
     }
   ],
   "languages": [
@@ -98,27 +114,36 @@
   ],
   "projects": [
     {
-      "name": "Blue Exams \u2014 Mock exam subscription platform",
-      "description": "Subscription-based web mock exam platform with authentication, billing, and dashboard.",
+      "name": "Blue Exams — Mock exam subscription platform",
+      "description": "Subscription-based web mock exam platform with authentication, billing, exam flow and dashboard.",
       "highlights": [
-        "Built core flows (login and dashboard) using Next.js/React.",
-        "Implemented authentication/access control (NextAuth) and subscription billing (Stripe).",
-        "Backed by PostgreSQL via Prisma, with ongoing production maintenance and fixes."
+        "Implemented core flows in Next.js/React, including login, dashboard and exam experience.",
+        "Integrated authentication/access control with NextAuth and subscription billing with Stripe.",
+        "Used PostgreSQL via Prisma, supporting production maintenance and fixes."
       ],
       "keywords": ["Next.js", "React", "NextAuth", "Stripe", "PostgreSQL", "Prisma"],
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-mock-exam-platform.md"
     },
     {
-      "name": "C compiler",
-      "description": "Complete C compiler implementation for C-- language with lexical, syntactic and semantic analysis, generating intermediate code in quadruples, plus RISC processor in Verilog executing compiled code on FPGA.",
-      "highlights": ["Lexical, syntactic and semantic analysis + intermediate code generation + RISC processor in Verilog for FPGA."],
+      "name": "McIntosh V8 — Mobile game in Unity",
+      "description": "Personal mobile driving game project in Unity/C#, with endless road, procedural traffic, touch controls, audio and scoring loop.",
+      "highlights": [
+        "Implemented vehicle movement with physics, acceleration, braking, virtual steering wheel and keyboard fallback.",
+        "Created endless road, NPC spawn/cleanup, distance/speed-based scoring, audio and game-over UI systems."
+      ],
+      "keywords": ["Unity", "C#", "URP", "Input System", "Mobile", "Game development"]
+    },
+    {
+      "name": "C language compiler",
+      "description": "C compiler implementation for a C-- language with lexical, syntactic and semantic analysis, intermediate code generation in quadruples and a RISC processor in Verilog for FPGA execution.",
+      "highlights": ["Lexical, syntactic and semantic analysis, intermediate code generation and RISC processor in Verilog."],
       "keywords": ["C", "Compilers", "Verilog", "FPGA", "RISC"],
       "entity": "UNIFESP"
     },
     {
-      "name": "Blue Exams \u2014 Landing page (marketing site)",
+      "name": "Blue Exams — Landing page",
       "description": "Static marketing site deployed on a Linux server.",
-      "highlights": ["Built in HTML/CSS/JavaScript and operated on AWS EC2 + Nginx with TLS/Let's Encrypt."],
+      "highlights": ["Built in HTML/CSS/JavaScript and operated on AWS EC2, Nginx and TLS/Let's Encrypt."],
       "keywords": ["HTML", "CSS", "JavaScript", "AWS EC2", "Nginx", "TLS"],
       "url": "https://github.com/rkosmel/portfolio-roberto/blob/main/case-studies/blueexams-landing.md"
     }

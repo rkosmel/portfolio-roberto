@@ -1,26 +1,38 @@
-# Como gerar a imagem da capa do LinkedIn em alta resolução
+# LinkedIn
 
-## Método 1: Print via navegador (recomendado)
-1. Abra `linkedin/cover.html` no navegador
-2. Use atalho de print:
-   - **Windows/Linux**: `Ctrl + Shift + I` → DevTools → Toggle device toolbar → 1584×396 → Print → Save as PDF → Exportar como PNG
-   - **Mac**: `Cmd + Shift + I` → DevTools → Toggle device toolbar → 1584×396 → Print → Save as PDF → Exportar como PNG
+Esta pasta reúne os materiais prontos para atualizar o perfil público.
 
-## Método 2: Screenshot via linha de comando (Linux)
+- Headline: `./headline.md`
+- Sobre em português: `./about.pt.md`
+- Sobre em inglês: `./about.en.md`
+- Capa HTML: `./cover.html`
+- Capa PNG pronta: `./assets/linkedin-cover.png`
+- Drafts de posts: `./drafts/`
+
+## Capa
+
+A capa foi desenhada em HTML/CSS/SVG no tamanho recomendado pelo LinkedIn: `1584x396`.
+
+O PNG versionado para upload direto fica em `./assets/linkedin-cover.png`.
+
+### Gerar PNG pelo navegador
+
+1. Abra `linkedin/cover.html` no navegador.
+2. Use DevTools para simular uma viewport de `1584x396`.
+3. Exporte ou tire screenshot em PNG.
+
+### Gerar PNG via linha de comando
+
 ```bash
-# Instalar se necessário
-sudo apt install chromium-browser
-
-# Gerar PNG em 1584x396
-chromium-browser --headless --disable-gpu --window-size=1584,396 --screenshot=linkedin-cover.png linkedin/cover.html
+google-chrome --headless=new --disable-gpu --window-size=1584,396 --screenshot=linkedin-cover.png linkedin/cover.html
 ```
 
-## Método 3: Ferramenta online
-- Suba o HTML para um serviço como CodePen ou JSFiddle
-- Use a função de exportação de imagem ou print do navegador
+## Direção de conteúdo
 
-## Dicas de qualidade
-- Use zoom 100% no navegador
-- Exporte em PNG (não JPG)
-- Verifique se o arquivo tem exatamente 1584×396 pixels
-- Se necessário, redimensione com ferramenta como GIMP/Photoshop mantendo a proporção
+O posicionamento atual é:
+
+- Desenvolvedor Full Stack Júnior.
+- TypeScript, React/Next.js, Node.js, PostgreSQL e AWS.
+- Produto, requisitos, documentação e backlog.
+- IA aplicada como apoio supervisionado ao trabalho.
+- Experiência atual na ControlLed descrita em alto nível, sem detalhes internos.
