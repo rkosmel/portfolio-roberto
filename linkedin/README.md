@@ -11,9 +11,9 @@ Esta pasta reúne os materiais prontos para atualizar o perfil público.
 
 ## Capa
 
-A capa foi desenhada em HTML/CSS/SVG no tamanho recomendado pelo LinkedIn: `1584x396`.
+A capa foi desenhada em HTML/CSS no tamanho base recomendado pelo LinkedIn: `1584x396`.
 
-O PNG versionado para upload direto fica em `./assets/linkedin-cover.png`.
+O PNG versionado para upload direto fica em `./assets/linkedin-cover.png` e está em 2x (`3168x792`) para melhor nitidez mantendo a mesma proporção.
 
 ### Gerar PNG pelo navegador
 
@@ -24,7 +24,7 @@ O PNG versionado para upload direto fica em `./assets/linkedin-cover.png`.
 ### Gerar PNG via linha de comando
 
 ```bash
-google-chrome --headless=new --disable-gpu --window-size=1584,396 --screenshot=linkedin-cover.png linkedin/cover.html
+google-chrome --headless=new --disable-gpu --window-size=1584,396 --force-device-scale-factor=2 --screenshot=linkedin-cover.png linkedin/cover.html
 ```
 
 ## Direção de conteúdo
